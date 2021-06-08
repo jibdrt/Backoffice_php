@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Login-form</title>
 </head>
 <body>
+    <div class="container">
     <form action="login-form-handler.php" method="post">
         <div>
             <label for="input_name">Nom d'utilisateur : </label>
@@ -23,5 +25,6 @@
 
     
         <a href="index.php"><button>Retour</button></a>
+    </div>
 </body>
 </html>

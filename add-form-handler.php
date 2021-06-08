@@ -33,7 +33,7 @@ $query->bindValue(':project_github', $github, PDO::PARAM_STR);
 $query->bindValue(':project_link', $link, PDO::PARAM_STR);
 $query->execute();
 echo 'success';
-echo '<br><a href=index.php> Retour </a>';
+echo '<br><a href=home.php> Retour </a>';
 
 
 

@@ -26,24 +26,14 @@ if($_SESSION['username']){
     <?php 
     
     foreach ($result as $project) {
-        echo $project['project_title'].'<br>';
-
-        echo $project['project_begining_date'].'<br>';
-
-        echo $project['project_ending_date'].'<br>';
-
-        echo $project['project_context'].'<br>';
-
-        echo $project['project_specs'].'<br>';
-
-        echo $project['project_github'].'<br>';
-
-        echo $project['project_link'].'<br>';
-    }
-    
-    
-    
     ?>
+     <a href="project-details.php?id=<?=$project['project_id'] ?>"><?= $project['project_title'] ?></a>   
+    <?php
+    }
+    ?>
+
+
+
 
     <a href="add-form.php"><button>Add a project</button></a>
 
