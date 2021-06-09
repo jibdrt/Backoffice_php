@@ -40,7 +40,8 @@ if ($_SESSION['username']) {
 <?= $result['project_begining_date'] ?> <br>
 <?= $result['project_ending_date'] ?>
 
-<a href="project-delete.php?id=<?= $result['project_id'] ?>">supprimer <?= $result['project_title'] ?></a>
+<a href="project-delete.php?id=<?= $result['project_id'] ?>">DELETE <?= $result['project_title'] ?></a>
+<a href="project-edit.php?id=<?= $result['project_id'] ?>">EDIT <?= $result['project_title'] ?></a>
 
 
 <a href="home.php"><button>Back</button></a>

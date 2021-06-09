@@ -1,7 +1,6 @@
 <?php
 session_start();
 
-
 if ($_SESSION['username']) {
     if (isset($_GET['id']) && !empty($_GET['id'])) {
         require_once('db-connect.php');
