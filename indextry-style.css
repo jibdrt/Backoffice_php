@@ -66,7 +66,7 @@ a .liquid{
 }
 
 a .liquid:hover{
-transform: scale3d(360deg);
+transform: scale3d();
 }
 
 a .liquid:not(:hover){
