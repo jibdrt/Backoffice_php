@@ -13,7 +13,7 @@ session_start();
 <body>
     
  <div>
-    <form action="add-form-handler.php" method="post">
+    <form action="add-form-handler.php" method="post" enctype="multipart/form-data">
         <div>
             <label for="input_title">Title</label>
             <input type="text" id="input_title" name="project_title">
@@ -38,6 +38,7 @@ session_start();
             <label for="input_specs">Specs</label>
             <textarea name="project_specs" id="input_specs" cols="30" rows="10"></textarea>
         </div>
+
         <div>
             <label for="input_githublink">GitHub link</label>
             <input type="text" id="input_githublink" name="project_githublink">
