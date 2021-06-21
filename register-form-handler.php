@@ -24,6 +24,7 @@ if(isset($_POST['username'])&&!empty($_POST['username'])&&isset($_POST['password
         $query->execute();
         echo 'success';
         echo '<br><a href=index.php> Retour </a>';
+        echo '<br><a href=login-form.php> Login </a>';
     /* header('location:index.php'); */
 
 }else{

@@ -58,7 +58,7 @@ a .liquid{
     width: 200px;
     height: 200px;
     background: #4973ff;
-    box-shadow: inset 0 0 50px rgba(0,0,0,.5);
+    box-shadow: inset 0 0 50px rgb(0, 0, 0);
     transition: 2s;
     overflow:hidden;
     border-radius: 50px;

@@ -38,6 +38,10 @@ if ($_SESSION['username']) {
             <input type="text" id="input_title" name="project_title">
         </div>
         <div>
+            <label for="input_picture">Picture</label>
+            <input type="file" id="input_picture" name="project_picture">
+        </div>
+        <div>
             <label for="input_begin">Begining date</label>
             <input type="date" id="input_begin" name="project_begin">
         </div>
