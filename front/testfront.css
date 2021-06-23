@@ -1,0 +1,166 @@
+
+@font-face {
+    font-family: 'Rubik-Bold';
+    src: url('Rubik-Bold.ttf');
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+  height: 700px;
+}
+
+#navbar {
+  overflow: hidden;
+  transition: 0.4s;
+  position: fixed; 
+  width: 100%;
+  top: 0;
+  z-index: 99;
+  mix-blend-mode:lighten;
+  opacity: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  text-decoration: none;
+}
+
+
+  
+
+  .topnav a {
+    width: 100%;
+    float: left;
+    display: block;
+
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Rubik-Bold';
+    height: 40px;
+    padding: 14px;
+    padding-top: 15px;
+  }
+
+    .homenav{
+      color: #161616;
+    }
+
+/*     .homenav:hover{
+      color: white;
+      background-color: #161616;
+      transition: 1s;
+    } */
+
+
+  .topnav a:hover {
+    background-color: white;
+    color: #222222;
+    height: 232px;
+/*     border-radius: 0px 0px 15px 15px; */
+  }
+
+
+@media screen and (max-width:720px) {
+    #home:hover{
+      height: 50px;
+    }
+    #project:hover{
+      height: 50px;
+    }
+    #contact:hover{
+      height: 50px;
+    }
+    #about:hover{
+      height: 50px;
+    }
+
+}
+
+  .topnav a:not(:hover){
+      transition: 2s;
+  }
+  
+
+  .topnav a.active {
+    background-color: #222222;
+    color: white;
+    transition: 1s;
+  }
+
+
+
+.container{
+    height: 81px;
+    background: #0000;
+    background-position:center;
+}
+
+.colornav{
+  background:#222222;
+  background-position:top;
+  border: 1px white solid;
+}
+
+
+
+#home{
+  color:rgb(255, 255, 255);
+  }
+
+#project{
+
+color:rgb(255, 255, 255);
+}
+
+#contact{
+color:rgb(255, 255, 255);
+}
+
+#about{
+  
+color:rgb(255, 255, 255);
+}
+
+#home:hover{
+  background-position:right;
+    color: #222222;
+    border:#222222 1px solid;
+        transition: 1s;
+    padding-top: 250px;
+    mix-blend-mode:lighten;
+}
+
+#project:hover{
+  background-position:right;
+    color: #222222;
+    border:#222222 1px solid;
+        transition: 1s;
+    padding-top: 250px;
+}
+
+#contact:hover{
+  background-position:left;
+  color: #222222;
+  border:#222222 1px solid;
+      transition: 1s;
+    padding-top: 250px;
+}
+
+#about:hover{
+  background-position:bottom;
+  color: #222222;
+  border:#222222 1px solid;
+      transition: 1s;
+    padding-top: 250px;
+    mix-blend-mode:lighten;
+}
+
+
+
+

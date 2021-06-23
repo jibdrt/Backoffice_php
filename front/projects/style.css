@@ -1,0 +1,142 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background: #161616;
+    overflow: hidden;
+}
+
+.block {
+    position: relative;
+    width: 580px;
+    height: 460px;
+    margin: 10px 300px 20px 80px;
+}
+
+h1 {
+    position: absolute;
+    font-family: "Monument Extended";
+    font-weight: lighter;
+    font-size: 64px;
+}
+
+.block-1 {
+    background: url(owlpost.svg) no-repeat 50% 50%;
+    border: white 1px solid;
+    background-size: contain;
+}
+.block-1:hover{
+transform: scale(0.8);
+transition: 1s;
+border-radius: 50px;
+}
+
+.block-1:not(:hover){
+    transition: 1s;
+}
+
+
+@media screen and (max-width:720px) {
+        .block{
+            width: 50vw;
+
+        }
+        .block-3{
+            width: 20vw;
+            height: 20vh;
+        }
+}
+
+
+
+
+.block-3 {
+    background: url(ariannewhite.svg) no-repeat 50% 50%;
+    border: white 1px solid;
+    background-size: contain;
+    padding: 80px;
+    width: 300px;
+    height: 300px;
+}
+
+.block-3:hover{
+    transform: scale(0.8);
+    transition: 1s;
+    border-radius: 50px;
+    }
+    
+    .block-3:not(:hover){
+        transition: 1s;
+    }
+
+
+
+.block-2 {
+    background: url(nowherblanc.svg) no-repeat 50% 50%;
+    border: white 1px solid;
+    background-size: contain;
+}
+
+.block-2:hover{
+    transform: scale(0.8);
+    transition: 1s;
+    border-radius: 50px;
+    }
+    
+.block-2:not(:hover){
+        transition: 1s;
+}
+
+.block-4 {
+    background: url(img-four.jpeg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.block-5 {
+    background: url(img-five.jpeg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.container {
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+.block-1 h1,
+.block-3 h1,
+.block-5 h1 {
+    bottom: 0;
+    right: -60px;
+}
+
+.block-2 h1,
+.block-4 h1 {
+    right: -60px;
+}
+
+
+.btnback{
+    text-decoration: none;
+}
+
+.btnback button{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    margin-top: 2vh;
+    margin-left: 1vw;
+    border-radius: 15px;
+    width: 150px;
+}
+
+.btnback button:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin-top: 2vh;
+    margin-left: 1vw;
+    border-radius: 15px;
+    border: 1px white solid;
+}
+
