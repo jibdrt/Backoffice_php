@@ -35,11 +35,18 @@ if ($_SESSION['username']) {
 <body>
 <br>
 <?= $result['project_title'] ?> <br>
-<img src="assets/pictures/<?= $result['project_picture'] ?>"> <br>
+<img id="controlsize" src="../assets/pictures/<?= $result['project_picture'] ?>"> <br>
+<style>
+    #controlsize{
+        width: 200px;
+    }
+</style>
+<div id="controlsize">
 <?= $result['project_context'] ?> <br>
 <?= $result['project_specs'] ?> <br>
 <?= $result['project_begining_date'] ?> <br>
 <?= $result['project_ending_date'] ?>
+</div>
 
 <a href="project-delete.php?id=<?= $result['project_id'] ?>">DELETE <?= $result['project_title'] ?></a>
 <a href="project-edit.php?id=<?= $result['project_id'] ?>">EDIT <?= $result['project_title'] ?></a>
