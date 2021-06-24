@@ -1,3 +1,12 @@
+
+<?php
+ require_once('../back/db-connect.php');
+ $sql ='SELECT * FROM `projects`';
+ $query =$db-> prepare($sql);
+ $query->execute();
+ $result = $query->fetchAll(PDO::FETCH_ASSOC);
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -25,7 +34,22 @@
     <body>
         <a class="btnback" href="http://localhost/backoffice-portfolio/front/index.php"><button>&#8592</button></a>
         <div class="container">
-            <div id="myBtn" class="block block-1">
+        <?php
+                foreach ($result as $projet) {
+        ?>
+        <div id="myBtn" class="block block-1" >
+                <div style="background:no-repeat 50% 50% url('../assets/pictures/<?= $project['project_picture'] ?>');">
+                    <h2><?= $project['project_title'] ?></h2>
+                </div>
+            </a>
+                <h1>.</h1>
+            </div>
+            <?php
+                    }
+                ?>
+
+
+<!--             <div id="myBtn" class="block block-1">
                 <h1>.</h1>
             </div>
             <div class="block block-2">
@@ -39,7 +63,7 @@
             </div>
             <div class="block block-5">
                 <h1>Contact.</h1>
-            </div>
+            </div> -->
         </div>
         <script src="mainscroll.js"></script>
         <script>

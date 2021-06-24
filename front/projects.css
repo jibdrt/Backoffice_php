@@ -25,10 +25,16 @@ h1 {
 }
 
 .block-1 {
-    background: url(owlpost.svg) no-repeat 50% 50%;
+
     border: white 1px solid;
+
+}
+
+.thumbnail{
+    background: no-repeat 50% 50%;
     background-size: contain;
 }
+
 .block-1:hover{
 transform: scale(0.8);
 transition: 1s;
