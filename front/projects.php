@@ -25,7 +25,7 @@
     <body>
         <a class="btnback" href="http://localhost/backoffice-portfolio/front/index.php"><button>&#8592</button></a>
         <div class="container">
-            <div class="block block-1">
+            <div id="myBtn" class="block block-1">
                 <h1>.</h1>
             </div>
             <div class="block block-2">
@@ -52,5 +52,6 @@
                 springEffect: 0.8,
             });
         </script>
+    <?php include "projectmodal.php";?>
     </body>
 </html>
