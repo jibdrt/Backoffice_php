@@ -13,7 +13,7 @@
 
 .wrapper{
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 200px 2fr 200px;
     margin-top: -10px;
     z-index: 1;
     }
@@ -54,64 +54,64 @@
     
     
     .a{
-      animation: move 10s infinite ease-in;
+      animation: move 10s  ease-in;
     }
     .b{
-      animation: move 10.5s infinite ease-in;
+      animation: move 10.5s  ease-in;
     }
     .c{
-      animation: move 11s infinite ease-in;
+      animation: move 11s  ease-in;
     }
     .d{
-      animation: move 11.5s infinite ease-in;
+      animation: move 11.5s  ease-in;
     }
     .e{
-      animation: move 12s infinite ease-in;
+      animation: move 12s  ease-in;
     }
     .f{
-      animation: move 12.5s infinite ease-in;
+      animation: move 12.5s  ease-in;
     }
     .g{
-      animation: move 13s infinite ease-in;
+      animation: move 13s  ease-in;
     }
     .h{
-      animation: move 13.5s infinite ease-in;
+      animation: move 13.5s  ease-in;
     }
     .i{
-      animation: move 14s infinite ease-in;
+      animation: move 14s  ease-in;
     }
     .j{
-      animation: move 14.5s infinite ease-in;
+      animation: move 14.5s  ease-in;
     }
     .k{
-      animation: move 15s infinite ease-in;
+      animation: move 15s  ease-in;
     }
     .l{
-      animation: move 15.5s infinite ease-in;
+      animation: move 15.5s  ease-in;
     }
     .m{
-      animation: move 16s infinite ease-in;
+      animation: move 16s  ease-in;
     }
     .n{
-      animation: move 16.5s infinite ease-in;
+      animation: move 16.5s  ease-in;
     }
     .o{
-      animation: move 17s infinite ease-in;
+      animation: move 17s  ease-in;
     }
     .p{
-      animation: move 17.5s infinite ease-in;
+      animation: move 17.5s  ease-in;
     }
     .q{
-      animation: move 18s infinite ease-in;
+      animation: move 18s  ease-in;
     }
     .r{
-      animation: move 18.5s infinite ease-in;
+      animation: move 18.5s  ease-in;
     }
     .s{
-      animation: move 19s infinite ease-in;
+      animation: move 19s  ease-in;
     }
     .t{
-      animation: move 19.5s infinite ease-in;
+      animation: move 19.5s  ease-in;
     }
     
   @keyframes move {
@@ -239,7 +239,7 @@
       }100%{
         width: 200px;
         transform-style:preserve-3d;
-        animation-iteration-count: infinite;
+        animation-fill-mode: forwards;
       }
     }
 

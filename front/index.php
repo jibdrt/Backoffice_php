@@ -16,7 +16,7 @@
     <div id="navbar" class="topnav">
             <a id="home" href="home" class="colornav">Home</a>
             
-            <a id="project" class='colornav' href="http://localhost/test-front/portfolio-trial/">Projects</a>
+            <a id="project" class='colornav' href="http://localhost/backoffice-portfolio/front/projects.php">Projects</a>
             
             <a id="contact" class='colornav' href="#contact">Contact</a>
             

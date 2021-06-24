@@ -5,7 +5,7 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge" />
         <title>Horizontal Scroll</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="projects.css" />
     </head>
     <style> 
             body { 
@@ -23,7 +23,7 @@
             } 
 </style> 
     <body>
-        <a class="btnback" href="/test-front/"><button>&#8592</button></a>
+        <a class="btnback" href="http://localhost/backoffice-portfolio/front/index.php"><button>&#8592</button></a>
         <div class="container">
             <div class="block block-1">
                 <h1>.</h1>
@@ -41,7 +41,7 @@
                 <h1>Contact.</h1>
             </div>
         </div>
-        <script src="main.js"></script>
+        <script src="mainscroll.js"></script>
         <script>
             var blocks = document.getElementsByClassName("block");
             var container = document.getElementsByClassName("container");
