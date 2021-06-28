@@ -110,7 +110,7 @@ body{
 
 
 #home{
-  color:rgb(255, 255, 255);
+  color:#222222;
   }
 
 #project{
@@ -162,5 +162,26 @@ color:rgb(255, 255, 255);
 }
 
 
+html{
+  cursor:crosshair;
+}
+
+a:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  display: block;
+  margin-top: 0px;
+  left: 0%;
+  background: black;
+  transition: width 2s ease;
+}
+
+a:hover:after{
+  width: 80%;
+  left: 0%;
+  background: black;
+}
 
 

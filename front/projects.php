@@ -37,16 +37,17 @@
         <?php
                 foreach ($result as $projet) {
         ?>
-        <div id="myBtn" class="block block-1" >
-                <div style="background:no-repeat 50% 50% url('../assets/pictures/<?= $project['project_picture'] ?>');">
-                    <h2><?= $project['project_title'] ?></h2>
-                </div>
-            </a>
-                <h1>.</h1>
-            </div>
-            <?php
-                    }
-                ?>
+                <div id="myBtn" class="block block-1">
+                <a href="/../back/project-details.php?id=<?= $project['project_id'] ?>">
+                
+                    <img src="../../assets/pictures/<?= $project['project_picture'] ?>" alt="">
+                </a>
+        </div>
+
+
+        <?php
+            }
+        ?>
 
 
 <!--             <div id="myBtn" class="block block-1">

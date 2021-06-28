@@ -7,6 +7,7 @@ body {
     color: #fff;
     background: #161616;
     overflow: hidden;
+    cursor: crosshair;
 }
 
 .block {
@@ -39,6 +40,8 @@ h1 {
 transform: scale(0.8);
 transition: 1s;
 border-radius: 50px;
+cursor: none;
+
 }
 
 .block-1:not(:hover){
