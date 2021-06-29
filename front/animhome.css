@@ -54,7 +54,7 @@
     
     
     .a{
-      animation: move 10s  ease-in;
+      animation: move 20s  ease-in;
     }
     .b{
       animation: move 10.5s  ease-in;
@@ -72,7 +72,7 @@
       animation: move 12.5s  ease-in;
     }
     .g{
-      animation: move 13s  ease-in;
+      animation: move 23s  ease-in;
     }
     .h{
       animation: move 13.5s  ease-in;
@@ -176,6 +176,8 @@
         width: 190px;
       }50%{
         width: 200px;
+        transform: rotate(90deg);
+        box-shadow: white 2px 2px 2px 2px;
       }
       55%
       {
@@ -195,8 +197,7 @@
       72%
       {
         width: 150px;
-        transform: rotate(-8deg);
-        box-shadow: black 2px 2px 2px 2px;
+
       }
       74%
       {

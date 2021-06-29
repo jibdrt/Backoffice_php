@@ -18,14 +18,17 @@
             
             <a id="project" class='colornav' href="http://localhost/backoffice-portfolio/front/projects.php">Projects</a>
             
-            <a id="contact" class='colornav' href="#contact">Contact</a>
-            
+            <div id="myBtn">
+            <a id="contact" class='colornav' href="http://localhost/backoffice-portfolio/front/contactform.php">Contact</a>
+            </div>
+
             <a id="about" class='colornav' href="#about">About</a>
     </div>
     <div class="container">
                 
     </div>
     <?php include "animhome.php";?>
+
     
 
 

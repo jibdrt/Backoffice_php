@@ -1,0 +1,42 @@
+body {
+
+  color: #FFF;
+  background: #222222;
+}
+
+svg {
+  width: 90vw;
+  height: auto;
+  background-color: transparent;
+}
+
+#control-point {
+  cursor: grab;
+}
+
+#control-point:active {
+  cursor: grabbing;
+}
+
+.coordinates {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  display: none;
+}
+
+.cf{
+
+  color: white;
+justify-content: center;
+
+}
+
+#decoration{
+  margin-top: -300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}

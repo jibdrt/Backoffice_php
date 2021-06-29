@@ -61,7 +61,7 @@ body{
   .topnav a:hover {
     background-color: white;
     color: #222222;
-    height: 232px;
+    height: 50%;
 /*     border-radius: 0px 0px 15px 15px; */
   }
 
@@ -167,21 +167,21 @@ html{
 }
 
 a:after {
-  content: '';
-  position: absolute;
-  width: 0;
-  height: 2px;
-  display: block;
-  margin-top: 0px;
-  left: 0%;
-  background: black;
-  transition: width 2s ease;
+  content: '';                                                 
+  position: absolute;                                                 
+  width: 0;                                                 
+  height: 1px;                                                 
+  display: block;                                                 
+  margin-top: 0px;                                                 
+  left: 0%;                                                 
+  background: #222222;                                                 
+  transition: 2s ease;                                                 
 }
 
 a:hover:after{
   width: 80%;
   left: 0%;
-  background: black;
+  background: #222222;
 }
 
 
