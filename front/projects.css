@@ -144,9 +144,5 @@ cursor: none;
 .btnback button:hover{
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
-    margin-top: 2vh;
-    margin-left: 1vw;
-    border-radius: 15px;
-    border: 1px white solid;
 }
 

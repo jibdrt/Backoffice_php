@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'rubik';
+  src: url('Rubik-Bold.ttf');
+}
+
+
 body {
 
   color: #FFF;
@@ -26,17 +32,51 @@ svg {
   display: none;
 }
 
-.cf{
+@media screen and (max-width:720px) {
+  .elast{
+    margin-top: 170px;
+    margin-left: -90px;
+  }
+}
 
-  color: white;
+
+.cf{
+color: white;
+display: flex;
 justify-content: center;
+margin-top: 20vh;
+font-family: 'rubik';
 
 }
 
+
+
 #decoration{
   margin-top: -300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+margin-left: 100px;
+}
+
+input, textarea{
+  width: 300px;
+}
+
+
+.btnback{
+  text-decoration: none;
+}
+
+.btnback button{
+  background-color: white;
+  color: rgb(0, 0, 0);
+  margin-top: 2vh;
+  margin-left: 1vw;
+  border-radius: 15px;
+  width: 150px;
+}
+
+.btnback button:hover{
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+
 
 }

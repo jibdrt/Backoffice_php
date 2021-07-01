@@ -9,35 +9,39 @@
 </head>
 <body>
 
+<a class="btnback" href="http://localhost/backoffice-portfolio/front/index.php"><button>&#8592</button></a>
 
-<div>
 
 
     <div class="cf">
-    <form action="contacthandler.php" method="post"><!-- action définit l'URL où sont envoyées les données, l'attribut method définit la méthode php utilisée pour envoyer les données (get ou post)-->
+    <form id="form" action="contacthandler.php" method="post"><!-- action définit l'URL où sont envoyées les données, l'attribut method définit la méthode php utilisée pour envoyer les données (get ou post)-->
         <fieldset>
-        <legend>Formulaire</legend>
+        <legend>Contact me</legend>
         <div>
-            <label for="topic">Objet</label>
+            <label for="topic">Object</label><br>
             <input type="text" id='topic' name='message_topic'>
         </div>
         <div>
-            <label for="mail">Votre e-mail</label><br>
+            <label for="mail">e-mail</label><br>
             <input type="email" id='mail' name='user_mail'>
         </div>
         <div>
-            <label for="msg">Message</label>
+            <label for="msg">Message</label><br>
             <textarea id="msg" name="user_message"></textarea>
         </div>
         <div class="button">
-            <button type="reset">Remettre à zéro</button><br>
-            <button type="submit">Envoyer</button>
+
+            <button type="reset">Reset</button><br>
+            <button type="submit">Send</button>
+
             <!-- <input type="submit"> autre manière de crée un bouton -->
         </div>
-
+        </fieldset>
+        </form>
     
     </div>
 
+<!-- <div class="elast">
   <div class="coordinates">
     <div>X:<span class="posX">95</span></div>
     <div>Y:<span class="posY">80</span></div>
@@ -50,9 +54,8 @@
     <circle cx="180" cy="80" r="2" fill="white" id="end-point" />
     <circle cx="95" cy="80" r="5" fill="white"id="control-point" />
   </svg>
-</div>
-</fieldset>
-</form>
+</div> -->
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js"></script>
 <script src="contact.js"></script>
