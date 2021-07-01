@@ -8,7 +8,24 @@ body {
 
   color: #FFF;
   background: #222222;
+
 }
+
+
+html{
+  animation: contactslider 2s ease;
+}
+
+
+@keyframes contactslider {
+  0%{
+    margin-left: -5000px;
+  }100%{
+    margin-left: 0px;
+  }
+}
+
+
 
 svg {
   width: 90vw;

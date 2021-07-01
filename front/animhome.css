@@ -54,7 +54,7 @@
     
     
     .a{
-      animation: move 20s  ease-in;
+      animation: move 12s  ease-in;
     }
     .b{
       animation: move 10.5s  ease-in;
@@ -72,7 +72,7 @@
       animation: move 12.5s  ease-in;
     }
     .g{
-      animation: move 23s  ease-in;
+      animation: move 12s  ease-in;
     }
     .h{
       animation: move 13.5s  ease-in;
