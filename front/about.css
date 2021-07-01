@@ -201,17 +201,7 @@ a:hover:after{
 
 
 
-@keyframes titleslide {
-    0%{
-margin-bottom: -200px;
-        
-            }50%{
-margin-bottom: -100px;
-    }
-    100%{
-margin-bottom: 0px;
-    }
-}
+
 
 
 
@@ -240,25 +230,18 @@ margin-bottom: 0px;
 }
 
 
-@keyframes slidetext {
-    0%{
-margin-right: -5000px;
 
-    }100%{
-margin-right: 0px;
-    }
+
+
+body{
+  animation: contactslider 2s ease;
 }
 
 
-/* carroussel */
-
-
-@keyframes slide {
-    0%{
-width: 20px;
-
-    }100%{
-width: 638px;
-    }
+@keyframes contactslider {
+  0%{
+    margin-left: -5000px;
+  }100%{
+    margin-left: 0px;
+  }
 }
-

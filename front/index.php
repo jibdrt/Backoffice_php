@@ -22,7 +22,7 @@
             <a id="contact" class='colornav' href="http://localhost/backoffice-portfolio/front/contactform.php">Contact</a>
             </div>
 
-            <a id="about" class='colornav' href="#about">About</a>
+            <a id="about" class='colornav' href="http://localhost/backoffice-portfolio/front/about.php">About</a>
     </div>
     <div class="container">
                 

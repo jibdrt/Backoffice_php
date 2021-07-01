@@ -31,8 +31,8 @@
         </div>
         <div class="button">
 
-            <button type="reset">Reset</button><br>
-            <button type="submit">Send</button>
+            <button class="btnform" type="reset">Reset</button><br>
+            <button class="btnform" type="submit">Send</button>
 
             <!-- <input type="submit"> autre manière de crée un bouton -->
         </div>
