@@ -183,11 +183,9 @@ a:hover:after{
 
 .wrapper{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
     margin-top: 10vh;
 }
-
-
 
 
 .titles{
@@ -195,14 +193,8 @@ a:hover:after{
     font-size: 30px;
     box-shadow: #161616 2px 2px 2px;
     animation: titleslide 2s ease-in-out;
+    margin-left: 10vw;
 }
-
-
-
-
-
-
-
 
 
 
@@ -233,15 +225,20 @@ a:hover:after{
 
 
 
-body{
+.titles, .secleft, .topnav{
   animation: contactslider 2s ease;
 }
 
 
 @keyframes contactslider {
   0%{
-    margin-left: -5000px;
+    margin-left: -1000px;
   }100%{
-    margin-left: 0px;
+    margin-left: none;
   }
 }
+
+
+/* *{
+  border: 1px red solid;
+} */
