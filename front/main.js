@@ -90,3 +90,11 @@ a.forEach(item => {
 
 
 
+document.getElementById('testbtn').addEventListener("click", function(){
+  if (move.style.animationPlayState == "paused") {
+      move.style.animationPlayState = "running";
+  }else if(move.style.animationPlayState == "running" || animationDiv.style.animationPlayState == ""){
+      move.style.animationPlayState = "paused"; // assuming you want to toggle
+  }
+  console.log(move.style.animationPlayState);
+});

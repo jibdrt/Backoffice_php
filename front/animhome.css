@@ -67,15 +67,19 @@
     }
     .e{
       animation: move 12s  ease-in;
+      
     }
     .f{
       animation: move 12.5s  ease-in;
+      
     }
     .g{
       animation: move 12s  ease-in;
+      
     }
     .h{
       animation: move 13.5s  ease-in;
+      
     }
     .i{
       animation: move 14s  ease-in;
@@ -163,6 +167,7 @@
       }
       39%{
         width: 130px;
+
       }41%{
         width: 140px;
       }43%{
@@ -242,6 +247,7 @@
         width: 200px;
         transform-style:preserve-3d;
         animation-fill-mode: forwards;
+        animation-play-state: paused;
       }
     }
 

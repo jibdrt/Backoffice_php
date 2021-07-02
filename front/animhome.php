@@ -1,7 +1,8 @@
+
 <div class="wrapper">
     
         <div class="inwrapa">
-            
+        <div id="stop">
                     <div class="anim a"></div>
                     <div class="anim b"></div>
                     <div class="anim c"></div>
@@ -113,7 +114,7 @@
                     <div class="anim l"></div>
                     <div class="anim k"></div>
                     <div class="anim j"></div>
-
+</div>
         </div>
 
             <div id="portfolio">
@@ -359,6 +360,9 @@ const test = new Letterize({
                     
 
         </div>
+
+
+
 
 
 </div>

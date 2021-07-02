@@ -35,13 +35,13 @@
         <a class="btnback" href="http://localhost/backoffice-portfolio/front/index.php"><button>&#8592</button></a>
         <div class="container">
         <?php
-                foreach ($result as $projet) {
+                foreach ($result as $project) {
         ?>
-                <div id="myBtn" class="block block-1">
-                <a href="/../back/project-details.php?id=<?= $project['project_id'] ?>">
+        <a href="/../back/project-details.php?id=<?= $project['project_id'] ?>">
                 
-                    <img src="../../assets/pictures/<?= $project['project_picture'] ?>" alt="">
-                </a>
+            <div id="myBtn" class="block block-1" style="background-image:url('../assets/pictures/<?= $project['project_picture'] ?>')">
+        </a>
+
         </div>
 
 
@@ -77,6 +77,7 @@
                 springEffect: 0.8,
             });
         </script>
-    <?php include "projectmodal.php";?>
+    <?php /* include "projectmodal.php"; */?>
+    
     </body>
 </html>
