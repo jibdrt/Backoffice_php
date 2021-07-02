@@ -9,9 +9,9 @@
         $query->bindValue(':id', $id, PDO::PARAM_STR);
         $query->execute();
         $result = $query->fetch();
-        echo '<pre>';
+/*         echo '<pre>';
         var_dump($result); 
-        echo '</pre>';
+        echo '</pre>'; */
     } else {
       echo 'il y a un problème' ;
     }
@@ -19,11 +19,4 @@
 
 ?>
 
-    <h1><?= $result['project_title'] ?></h1> <br><br>
-    <img src="../assets/pictures/<?= $result['project_picture'] ?>" alt=""><br>
-    <p><?= $result['project_context'] ?></p><br>
-    <p><?= $result['project_specs'] ?></p>
-    <p>Projet démarré le <?= $result['project_begin'] ?> et terminé le <?= $result['project_end'] ?></p>
-    <br>
-    <br>
-    <br><br>
+

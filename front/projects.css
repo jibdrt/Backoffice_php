@@ -32,12 +32,58 @@ html{
     cursor: pointer;
 }
 
+
+.table{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 140px;
+}
+
+
+
+
+#logo{
+    width: 120px;
+    margin-top: 15vh;
+    margin-left: 14vw;
+}
+
 h1 {
     position: absolute;
     font-family: "Monument Extended";
     font-weight: lighter;
     font-size: 64px;
 }
+
+
+
+
+
+
+
+@media screen and (max-width:720px) {
+    
+
+    h1{
+        font-size: 34px;
+    }
+
+
+
+
+        #logo{
+            width: 120px;
+            margin-top: 15vh;
+            margin-left: 14vw;
+        }
+
+}
+
+
+
+
+
+
 
 .block-1 {
 

@@ -38,9 +38,20 @@
                 foreach ($result as $project) {
         ?>
         <a href="/../back/project-details.php?id=<?= $project['project_id'] ?>">
-                
-            <div id="myBtn" class="block block-1" style="background-image:url('../assets/pictures/<?= $project['project_picture'] ?>')">
-        </a>
+     
+            <div id="myBtn" class="block block-1" >
+            </a>
+            <div class="table">
+                <div>
+                <h1><?= $project['project_title'] ?></h1> <br><br>
+                <img id="logo" src="../assets/pictures/<?= $project['project_picture'] ?>" alt=""><br>
+                </div>
+
+
+            </div>
+
+            
+
 
         </div>
 
@@ -77,7 +88,8 @@
                 springEffect: 0.8,
             });
         </script>
-    <?php /* include "projectmodal.php"; */?>
+    <?php include "projectmodal.php";?>
     
     </body>
 </html>
+
