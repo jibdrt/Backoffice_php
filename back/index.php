@@ -10,12 +10,12 @@
 </head>
 <body>
     <a href="register-form.php">
-        <span class="gap1">LOGIN</span>
+        <span class="gap1">REGISTER</span>
         <div class="liquid"></div>
     </a>
 
     <a href="login-form.php">
-        <span class="gap2">REGISTER</span>
+        <span class="gap2">LOGIN</span>
         <div class="liquid"></div>
     </a>
 </body>

@@ -37,10 +37,10 @@
         <?php
                 foreach ($result as $project) {
         ?>
-        <a href="/../back/project-details.php?id=<?= $project['project_id'] ?>">
+
      
             <div id="myBtn" class="block block-1" >
-            </a>
+
             <div class="table">
                 <div>
                 <h1><?= $project['project_title'] ?></h1> <br><br>
@@ -49,6 +49,7 @@
 
 
             </div>
+
 
             
 

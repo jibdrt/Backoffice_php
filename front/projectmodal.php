@@ -12,9 +12,9 @@
 /*         echo '<pre>';
         var_dump($result); 
         echo '</pre>'; */
-    } else {
+    }/*  else {
       echo 'il y a un problème' ;
-    }
+    } */
 
 
 ?>
