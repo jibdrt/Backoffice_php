@@ -59,6 +59,18 @@ Obcaecati autem voluptatibus ratione. Perspiciatis fugit officiis ipsam facilis 
 
 </div>
 
+<div class="wrapimg">
+
+<div></div>
+<div class="wrapimg_content"></div>
+<div class="wrapimg_content"><img id="draw2" src="../assets/pictures/godzi.jpg" alt=""></div>
+<div class="wrapimg_content"><img id="draw3" src="../assets/pictures/lovecraft.jpg" alt=""></div>
+<div class="wrapimg_content"></div>
+<div></div>
+
+
+</div>
+
 
     
 </body>
