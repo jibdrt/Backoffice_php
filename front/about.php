@@ -8,7 +8,7 @@
     <title>About/A propos</title>
 </head>
 <body>
-
+<a class="btnback" href="http://localhost/backoffice-portfolio/front/index.php"><button>&#8592</button></a>
     <div id="navbar" class="topnav">
             <a id="home" href="home" class="colornav">Home</a>
             
@@ -63,15 +63,25 @@ Obcaecati autem voluptatibus ratione. Perspiciatis fugit officiis ipsam facilis 
 
 <div></div>
 <div class="wrapimg_content"></div>
-<div class="wrapimg_content"><img id="draw2" src="../assets/pictures/godzi.jpg" alt=""></div>
-<div class="wrapimg_content"><img id="draw3" src="../assets/pictures/lovecraft.jpg" alt=""></div>
+<div class="wrapimg_content"><img id="draw1" src="../assets/pictures/godzi.jpg" alt=""></div>
+<div class="wrapimg_content"><img id="draw2" src="../assets/pictures/lovecraft.jpg" alt=""></div>
 <div class="wrapimg_content"></div>
 <div></div>
 
 
 </div>
 
+<div class="wrapimg2">
 
+<div></div>
+<div class="wrapimg_content2"></div>
+<div class="wrapimg_content2"><img id="draw3" src="../assets/pictures/abstract.jpg" alt=""></div>
+<div class="wrapimg_content2"></div>
+<div class="wrapimg_content2"></div>
+<div></div>
+
+
+</div>
     
 </body>
 </html>

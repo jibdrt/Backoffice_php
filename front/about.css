@@ -267,6 +267,12 @@ a:hover:after{
   column-gap: 2vw;
 }
 
+.wrapimg2{
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 1fr 1fr 1fr 1fr;
+  column-gap: 1vw;
+}
+
 
 .wrapimg_content{
   width: auto;
@@ -274,18 +280,66 @@ a:hover:after{
 
   margin-bottom: 20vh;
 }
+.wrapimg_content2{
+  width: auto;
+  height: 50vh;
+
+  margin-bottom: 20vh;
+}
 
 
-#draw2{
+#draw1{
   border: #222222 1px solid;
   width: 500px;
   box-shadow: #222222 1px 1px 1px;
 }
 
 
-#draw3{
+#draw2{
   border: #222222 1px solid;
   width: 500px;
   margin-top: 15vh;
   box-shadow: #222222 1px 1px 1px 1px;
 }
+
+#draw3{
+  border: #222222 1px solid;
+  width: 400px;
+  box-shadow: #222222 1px 1px 1px 1px;
+  margin-top: -12vh;
+}
+
+
+/* #draw1:hover, #draw2:hover, #draw3:hover {
+
+}
+
+#draw1:not(:hover), #draw2:not(:hover), #draw3:not(:hover) {
+transition: 2s;
+} */
+
+.btnback{
+  text-decoration: none;
+}
+
+.btnback button{
+  background-color: white;
+  color: rgb(0, 0, 0);
+  margin-top: 10vh;
+  margin-left: 1vw;
+  border-radius: 15px;
+  width: 150px;
+  cursor: pointer;
+}
+
+.btnback button:hover{
+  background-color: #222222;
+  color: rgb(255, 255, 255);
+  transition: 1s;
+}
+
+.btnback button:not(:hover){
+
+  transition: 1s;
+}
+
