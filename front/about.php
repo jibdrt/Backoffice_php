@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="about.css">
+    
     <title>About/A propos</title>
 </head>
 <body>
@@ -41,16 +42,25 @@
 <div class="secwhite">
 
 
-<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus omnis corporis iste est expedita sed iure eius eum iusto. Recusandae deleniti dolorum eligendi incidunt laudantium amet deserunt perferendis minima minus!</p><br>
-<p>Repellat nobis nostrum quasi quis voluptates adipisci odit fugiat non! Quae aut optio quos mollitia, deleniti perferendis tenetur commodi voluptatum, debitis harum praesentium excepturi facilis at beatae non quo aspernatur!</p><br>
-Saepe laudantium, recusandae aut voluptas nam nisi deserunt eaque, ullam, quasi deleniti aperiam eos totam nihil eius laborum consectetur? Ducimus eaque deserunt iure ratione aspernatur dolore est a molestias fugiat!
-Repellendus qui ab in culpa voluptatem est id odio reiciendis earum. Cupiditate, in error aliquid culpa ducimus reiciendis. Accusamus magni perspiciatis explicabo atque adipisci tempore reiciendis odit error, ab quaerat?
-Provident iure possimus maxime excepturi cupiditate! Sapiente, saepe dignissimos, quisquam nulla corporis repudiandae, itaque vero magnam tempore fuga error ducimus. Nesciunt illum eos similique laudantium ex aliquid molestias cum ducimus.
-Facilis enim omnis sed possimus qui, reprehenderit modi, vero laudantium quis minus, similique nisi sequi consectetur blanditiis tempora ex! Rem fuga eius voluptatibus repudiandae temporibus minima quae deserunt velit animi?
-Ipsam nobis rerum deserunt tenetur laborum earum adipisci qui eaque exercitationem laudantium? Quidem mollitia vero hic sunt eos, quos eaque molestias perferendis tenetur modi in, laborum natus, obcaecati dolorum non.
-Cum nam maxime vel voluptate perspiciatis qui recusandae impedit architecto, nulla corrupti! Eius aspernatur itaque quas error consequuntur, eos autem mollitia assumenda nisi repellat ratione! Maxime mollitia voluptatem accusantium quisquam.
-Tempora vero similique maxime natus minus omnis nobis labore eligendi, porro eos accusamus animi ipsa modi laborum rem! Cupiditate est at sapiente non magni recusandae debitis laudantium necessitatibus consectetur velit.
-Obcaecati autem voluptatibus ratione. Perspiciatis fugit officiis ipsam facilis nisi adipisci odit atque consectetur, provident voluptates culpa sunt cumque quos eum cum eveniet. Ad, id sint aliquam ea accusantium adipisci?
+<p>Originaire de Bourgogne et résidant aujourd’hui à Dijon, j’ai 25 ans.</p><br>
+
+<p>Après un master en marketing et management, j’ai décidé de céder à la curiosité en m’orientant dans le domaine du développement web.</p><br><p>
+Passionné par ce que je fais, cette prise de décision fût une révélation.</p><br>
+
+<p>Intéressé par les créations de toutes sortes, je pratique aussi le dessin et la musique depuis de nombreuses années.
+</p>
+<br><br>
+<div class="split"></div>
+<br><br>
+<div class="eng">
+<p>Originally from Burgundy and now living in Dijon, I am 25 years old.</p><br>
+<p>After a master's degree in marketing and management, I decided to give in to curiosity by orienting myself in the field of web development.</p><br><p>Passionate about what I do, this decision making was kind of a revelation.</p><br>
+<p>Interested in creations of all kinds, I also practice drawing and music for many years.</p>
+</div>
+
+
+
+
 
 
 </div>
@@ -62,8 +72,8 @@ Obcaecati autem voluptatibus ratione. Perspiciatis fugit officiis ipsam facilis 
 <div class="wrapimg">
 
 <div></div>
-<div class="wrapimg_content"></div>
-<div class="wrapimg_content"><img id="draw1" src="../assets/pictures/godzi.jpg" alt=""></div>
+<div id="dn" class="wrapimg_content"></div>
+<div class="wrapimg_content"><img id="draw1" onclick="openModal();" src="../assets/pictures/godzi.jpg" alt=""></div>
 <div class="wrapimg_content"><img id="draw2" src="../assets/pictures/lovecraft.jpg" alt=""></div>
 <div class="wrapimg_content"></div>
 <div></div>
@@ -71,17 +81,111 @@ Obcaecati autem voluptatibus ratione. Perspiciatis fugit officiis ipsam facilis 
 
 </div>
 
-<div class="wrapimg2">
-
-<div></div>
-<div class="wrapimg_content2"></div>
-<div class="wrapimg_content2"><img id="draw3" src="../assets/pictures/abstract.jpg" alt=""></div>
-<div class="wrapimg_content2"></div>
-<div class="wrapimg_content2"></div>
-<div></div>
 
 
-</div>
-    
+
+
+
+
+
+            <table class = "table">
+    <?php
+    //Les clefs du tableau étant l'id_acd
+    $EMPLOYEES = array(
+        1 => array(
+            'id_acd' => <?= ?>, 
+            'nombre' => 2,
+        ),
+        3 => array(
+            'id_acd' => 3,
+            'nombre' => 4,
+        ), 
+        5 => array(
+            'id_acd' => 5,
+            'nombre' => 6,
+        ), 
+    );
+    foreach($EMPLOYEES as $employee)
+    {
+        $employee = (object)$employee;
+    ?>
+        <tr>
+        <td><?=$employee->id_acd;?></td>
+        <td><?=$employee->nombre;?></td>
+        <td>
+            <!-- https://getbootstrap.com/docs/4.0/components/modal/ -->
+            <button
+            id="btnmodal"
+                data-toggle="modal"
+                data-target="#myModal"
+                class="btn btn-warning btn-open-my-modal"
+                data-employee-id = "<?=$employee->id_acd;?>"
+                 
+            >
+             <span class="fa fa-plus" aria-hidden="true"></span>
+           </button>
+          </td>
+       </tr>
+    <?php }?>
+    </table>
+     
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog modal-sm">
+       <h4 id = "myModalTitle" style="text-align:center;color:green">{{id_acd}} {{nombre}} </h4>
+       </div>
+    </div>
+
+    <div id="myModal" class="modal fade">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+              <div class="modal-content">
+
+              <img class="img__modal1" src="../assets/pictures/godzi.jpg" alt="">
+
+
+            </div>
+     
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="//code.jquery.com/jquery-3.2.1.slim.min.js"  crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" crossorigin="anonymous"></script>   
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+     
+        // On passe notre variables PHP au javascript grace à json_encode.
+        var employees = <?=
+            json_encode(
+                $EMPLOYEES
+            ); ?>;
+             
+        (function($){
+             
+            var myModalTitle = $( '#myModalTitle' );
+            var myModalTitleText = myModalTitle.html();
+            var myModal = $( '#myModal' );
+            var btnOpenMyModal = $( '.btn-open-my-modal' );
+             
+            //On remplace le texte original par notre texte
+            btnOpenMyModal.on(
+                'click',
+                function()
+                {
+                     
+                    var btn = $( this );
+                    var currentEmployees = employees[parseInt( btn.data( 'employee-id' ) )];
+                    myModalTitle.html(
+                        myModalTitleText
+                        .replace( '{{id_acd}}', currentEmployees.id_acd )
+                 
+                    );                 
+                }
+            );
+ 
+             
+        }(jQuery));
+         
+    </script>
+
+
+<script src="about.js"></script>
 </body>
 </html>

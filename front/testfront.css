@@ -145,14 +145,7 @@ color:rgb(255, 255, 255);
 color:rgb(255, 255, 255);
 }
 
-#home:hover{
-  background-position:right;
-    color: #222222;
-    border:#222222 1px solid;
-        transition: 1s;
-    padding-top: 250px;
-    mix-blend-mode:lighten;
-}
+
 
 #project:hover{
   background-position:right;
