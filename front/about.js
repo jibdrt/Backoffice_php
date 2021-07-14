@@ -1,7 +1,7 @@
 
 
 
-let images = [];
+let images = [''];
 let n = 1;
 for (var i = 0; i < n; i++) {
     var image = new Image();
