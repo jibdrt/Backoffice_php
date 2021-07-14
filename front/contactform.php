@@ -38,7 +38,12 @@
         </div>
         </fieldset>
         </form>
-    
+        <div class="draggable f"></div>
+        <div class="draggable a"></div>
+        <div class="draggable b"></div>
+        <div class="draggable c"></div>
+        <div class="draggable d"></div>
+        <div class="draggable e"></div>
     </div>
 
 <!-- <div class="elast">

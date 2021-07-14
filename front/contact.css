@@ -11,6 +11,11 @@ body {
 
 }
 
+.draggable{
+  width: 100px;
+  height: 100px;
+  background: red;
+}
 
 html{
   animation: contactslider 2s ease;

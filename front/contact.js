@@ -1,79 +1,61 @@
-const svg = document.querySelector('svg');
-const curve = document.getElementById('curve');
-const controlPoint = document.getElementById('control-point');
-const posXLabel = document.querySelector('.posX');
-const posYLabel = document.querySelector('.posY');
-const svgViewBoxWidth = 190;
+const d = document.getElementsByClassName("draggable");
 
-let isMouseDown = false;
-let point = {
-  x: 95,
-  y: 80
-};
+for (let i = 0; i < d.length; i++) {
+  d[i].style.position = "relative";
+}
 
-function updateCurve(x, y) {
-  let svgRect = svg.getBoundingClientRect();
-  let scale = svgRect.width / svgViewBoxWidth;
-  let width = (svgRect.width / scale) - 5;
-  let height = (svgRect.height / scale) - 6;
-  
-  // update point coordinates to mouse/touch position when dragging
-  if (x && y) {
-    point.x = Math.ceil((x - svgRect.x) / scale);
-    point.y = Math.ceil((y - svgRect.y) / scale);
+function filter(e) {
+  let target = e.target;
+
+  if (!target.classList.contains("draggable")) {
+    return;
   }
+
+  target.moving = true;
   
-  // clamp the coordinates to the limits of the SVG viewbox
-  point.x = point.x < 5 ? 5 : point.x;
-  point.y = point.y < 5 ? 5 : point.y;
-  point.x = point.x > width ? Math.ceil(width) : point.x;
-  point.y = point.y > height ? Math.ceil(height) : point.y;
+//NOTICE THIS 
+  e.clientX ? // Check if Mouse events exist on user' device
+  (target.oldX = e.clientX, // If they exist then use Mouse input
+  target.oldY = e.clientY) :
+  (target.oldX = e.touches[0].clientX, // otherwise use touch input
+  target.oldY = e.touches[0].clientY)
+//NOTICE THIS  Since there can be multiple touches, you need to mention which touch to look for, we are using the first touch only in this case
 
-  // update coordinate labels
-  posXLabel.textContent = point.x.toFixed(2);
-  posYLabel.textContent = point.y.toFixed(2);
+  target.oldLeft = window.getComputedStyle(target).getPropertyValue('left').split('px')[0] * 1;
+  target.oldTop = window.getComputedStyle(target).getPropertyValue('top').split('px')[0] * 1;
 
-  // update coordinates for control point and curve
-  controlPoint.setAttribute('cx', point.x);
-  controlPoint.setAttribute('cy', point.y);
-  curve.setAttribute('d', curve.getAttribute('d').replace(/Q (\d+(\.\d+)?) (\d+(\.\d+)?)/, `Q ${point.x} ${point.y}`));
-}
+  document.onmousemove = dr;
+//NOTICE THIS 
+  document.ontouchmove = dr;
+//NOTICE THIS 
 
-function onMouseDown() {
-  isMouseDown = true;
-}
+  function dr(event) {
+    event.preventDefault();
 
-function onMouseMove(ev) {
-  if (isMouseDown) {
-    updateCurve(ev.clientX, ev.clientY);
-  }
-}
-
-function onMouseUp() {
-  isMouseDown = false;
-  
-  // animate the control point and curve back to 
-  // the initial positions with a bouncy effect
-  // using the anime.js animation library
-  anime({
-    targets: point,
-    x: 95, // target X coordinate
-    y: 80, // target Y coordinate
-    duration: 1000,
-    easing: 'easeOutElastic(1.5, 0.2)',
-    update: function() {
-      updateCurve();
+    if (!target.moving) {
+      return;
     }
-  });
+//NOTICE THIS 
+    event.clientX ?
+    (target.distX = event.clientX - target.oldX,
+    target.distY = event.clientY - target.oldY) :
+    (target.distX = event.touches[0].clientX - target.oldX,
+    target.distY = event.touches[0].clientY - target.oldY)
+//NOTICE THIS 
+
+    target.style.left = target.oldLeft + target.distX + "px";
+    target.style.top = target.oldTop + target.distY + "px";
+  }
+
+  function endDrag() {
+    target.moving = false;
+  }
+  target.onmouseup = endDrag;
+//NOTICE THIS 
+  target.ontouchend = endDrag;
+//NOTICE THIS 
 }
-
-controlPoint.addEventListener('mousedown', onMouseDown);
-controlPoint.addEventListener('touchstart', onMouseDown);
-
-document.addEventListener('mousemove', onMouseMove);
-document.addEventListener('touchmove', (ev) => {
-  updateCurve(ev.touches[0].clientX, ev.touches[0].clientY);
-});
-
-document.addEventListener('mouseup', onMouseUp);
-document.addEventListener('touchend', onMouseUp);
+document.onmousedown = filter;
+//NOTICE THIS 
+document.ontouchstart = filter;
+//NOTICE THIS 

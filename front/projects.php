@@ -7,6 +7,7 @@
  $result = $query->fetchAll(PDO::FETCH_ASSOC);
 ?>
 
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -38,7 +39,7 @@
                 foreach ($result as $project) {
         ?>
 
-     
+     <a href="project-front-detail.php<?=$project['project_id']?>">
             <div id="myBtn" class="block block-1" >
 
             <div class="table">
@@ -49,9 +50,9 @@
 
 
             </div>
+     </a>
 
 
-            
 
 
         </div>
