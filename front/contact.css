@@ -1,37 +1,40 @@
 @font-face {
-  font-family: 'rubik';
-  src: url('Rubik-Bold.ttf');
+  font-family: "rubik";
+  src: url("Rubik-Bold.ttf");
 }
-
-
 body {
-
   color: #FFF;
   background: #222222;
-
 }
 
-.draggable{
+.draggable {
   width: 100px;
   height: 100px;
   background: red;
 }
 
-html{
-  animation: contactslider 2s ease;
+html {
+  -webkit-animation: contactslider 2s ease;
+          animation: contactslider 2s ease;
 }
 
-
-@keyframes contactslider {
-  0%{
+@-webkit-keyframes contactslider {
+  0% {
     margin-left: -5000px;
-  }100%{
+  }
+  100% {
     margin-left: 0px;
   }
 }
 
-
-
+@keyframes contactslider {
+  0% {
+    margin-left: -5000px;
+  }
+  100% {
+    margin-left: 0px;
+  }
+}
 svg {
   width: 90vw;
   height: auto;
@@ -39,10 +42,12 @@ svg {
 }
 
 #control-point {
+  cursor: -webkit-grab;
   cursor: grab;
 }
 
 #control-point:active {
+  cursor: -webkit-grabbing;
   cursor: grabbing;
 }
 
@@ -54,40 +59,34 @@ svg {
   display: none;
 }
 
-@media screen and (max-width:720px) {
-  .elast{
+@media screen and (max-width: 720px) {
+  .elast {
     margin-top: 170px;
     margin-left: -90px;
   }
 }
-
-
-.cf{
-color: white;
-display: flex;
-justify-content: center;
-margin-top: 20vh;
-font-family: 'rubik';
-
+.cf {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 20vh;
+  font-family: "rubik";
 }
 
-
-
-#decoration{
+#decoration {
   margin-top: -300px;
-margin-left: 100px;
+  margin-left: 100px;
 }
 
-input, textarea{
+input, textarea {
   width: 300px;
 }
 
-
-.btnback{
+.btnback {
   text-decoration: none;
 }
 
-.btnback button{
+.btnback button {
   background-color: white;
   color: #222222;
   margin-top: 2vh;
@@ -97,21 +96,18 @@ input, textarea{
   cursor: pointer;
 }
 
-.btnback button:hover{
+.btnback button:hover {
   background-color: #222222;
-  color: rgb(255, 255, 255);
+  color: white;
   transition: 1s;
 }
 
-
-.btnback button:not(:hover){
-
+.btnback button:not(:hover) {
   transition: 1s;
 }
 
-
-.btnform{
-  font-family: 'rubik';
+.btnform {
+  font-family: "rubik";
   padding: 5px;
   border-radius: 20px;
   border: 1px solid white;
@@ -121,17 +117,16 @@ input, textarea{
   cursor: pointer;
 }
 
-
-.btnform:hover{
+.btnform:hover {
   background-color: #FFF;
   color: #222222;
   transition: 1s;
 }
 
-.btnform:not(:hover){
-transition: 1s;
+.btnform:not(:hover) {
+  transition: 1s;
 }
 
-html{
+html {
   cursor: crosshair;
-}
+}/*# sourceMappingURL=contact.css.map */

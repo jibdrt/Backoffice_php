@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'rubik';
+    src: url('Rubik-Bold.ttf');
+  }
+  
+  
+  body {
+  
+    color: #FFF;
+    background: #222222;
+  
+  }
+  
+  .draggable{
+    width: 100px;
+    height: 100px;
+    background: red;
+  }
+  
+  html{
+    animation: contactslider 2s ease;
+  }
+  
+  
+  @keyframes contactslider {
+    0%{
+      margin-left: -5000px;
+    }100%{
+      margin-left: 0px;
+    }
+  }
+  
+  
+  
+  svg {
+    width: 90vw;
+    height: auto;
+    background-color: transparent;
+  }
+  
+  #control-point {
+    cursor: grab;
+  }
+  
+  #control-point:active {
+    cursor: grabbing;
+  }
+  
+  .coordinates {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    display: none;
+  }
+  
+  @media screen and (max-width:720px) {
+    .elast{
+      margin-top: 170px;
+      margin-left: -90px;
+    }
+  }
+  
+  
+  .cf{
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 20vh;
+  font-family: 'rubik';
+  
+  }
+  
+  
+  
+  #decoration{
+    margin-top: -300px;
+  margin-left: 100px;
+  }
+  
+  input, textarea{
+    width: 300px;
+  }
+  
+  
+  .btnback{
+    text-decoration: none;
+  }
+  
+  .btnback button{
+    background-color: white;
+    color: #222222;
+    margin-top: 2vh;
+    margin-left: 1vw;
+    border-radius: 15px;
+    width: 150px;
+    cursor: pointer;
+  }
+  
+  .btnback button:hover{
+    background-color: #222222;
+    color: rgb(255, 255, 255);
+    transition: 1s;
+  }
+  
+  
+  .btnback button:not(:hover){
+  
+    transition: 1s;
+  }
+  
+  
+  .btnform{
+    font-family: 'rubik';
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px solid white;
+    background-color: #222222;
+    color: #FFF;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  
+  .btnform:hover{
+    background-color: #FFF;
+    color: #222222;
+    transition: 1s;
+  }
+  
+  .btnform:not(:hover){
+  transition: 1s;
+  }
+  
+  html{
+    cursor: crosshair;
+  }
+
+
+
+
+
