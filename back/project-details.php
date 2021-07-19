@@ -45,7 +45,9 @@ if ($_SESSION['username']) {
 <?= $result['project_context'] ?> <br>
 <?= $result['project_specs'] ?> <br>
 <?= $result['project_begining_date'] ?> <br>
-<?= $result['project_ending_date'] ?>
+<?= $result['project_ending_date'] ?> <br>
+<?= $result['project_github'] ?> <br>
+<?= $result['project_link'] ?>
 </div>
 
 <a href="project-delete.php?id=<?= $result['project_id'] ?>">DELETE <?= $result['project_title'] ?></a>

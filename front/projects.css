@@ -97,8 +97,8 @@ h1 {
 }
 
 .block-1:hover{
-transform: scale(0.8);
-transition: 1s;
+transform: scale(1.1);
+transition: 0.5s;
 border-radius: 50px;
 cursor: none;
 
@@ -213,3 +213,9 @@ cursor: none;
     transition: 1s;
 }
 
+a{
+    text-decoration: none;
+}
+h1{
+    color: white;
+}

@@ -26,14 +26,25 @@ if (isset($_GET['id']) && !empty($_GET['id'])) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="project-front-detail.css">
 </head>
 <body>
-    
-                <h1><?= $result['project_title'] ?></h1>
-                                <figure>
-                                    <img src="../assets/pictures/<?= $result['project_picture']; ?>">
-                                </figure>
-                    <p><?= $result['project_context'] ?></p>
-                    <p> <?= $result['project_specs'] ?></p>
+
+<a class="btnback" href="http://localhost/backoffice-portfolio/front/projects.php"><button>&#8592</button></a>
+
+                <div class="card">
+                                
+                                     <div class="logotitle">    
+                                        <img src="../assets/pictures/<?= $result['project_picture']; ?>"><span id="title"><?= $result['project_title'] ?></span>
+                                    </div>           
+
+                                    <p><?= $result['project_context'] ?></p>
+                                    <p> <?= $result['project_specs'] ?></p>
+                                    <p> <?= $result['project_begining_date'] ?></p>
+                                    <p> <?= $result['project_ending_date'] ?></p>
+                                    <p><?= $result['project_github'] ?></p>
+                                    <p><?= $result['project_link'] ?></p>
+                                    
+                </div>
 </body>
 </html>

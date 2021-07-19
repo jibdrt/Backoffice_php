@@ -39,7 +39,7 @@
                 foreach ($result as $project) {
         ?>
 
-     <a href="project-front-detail.php<?=$project['project_id']?>">
+     <a href="project-front-detail.php?id=<?=$project['project_id']?>">
             <div id="myBtn" class="block block-1" >
 
             <div class="table">
