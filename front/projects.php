@@ -90,7 +90,7 @@
                 springEffect: 0.8,
             });
         </script>
-    <?php include "projectmodal.php";?>
+
     
     </body>
 </html>
