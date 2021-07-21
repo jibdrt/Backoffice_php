@@ -14,7 +14,7 @@
 
 
     <div class="cf">
-    <form id="form" action="contacthandler.php" method="post"><!-- action définit l'URL où sont envoyées les données, l'attribut method définit la méthode php utilisée pour envoyer les données (get ou post)-->
+    <form id="form" action="contacthandler.php" method="post" target="empty">
         <fieldset>
         <legend>Contact me</legend>
         <div>
@@ -32,19 +32,15 @@
         <div class="button">
 
             <button class="btnform" type="reset">Reset</button><br>
-            <button class="btnform" type="submit">Send</button>
+            <button onclick="validate()" class="btnform" type="submit">Send</button>
 
-            <!-- <input type="submit"> autre manière de crée un bouton -->
+            <iframe name="empty" id="empty" style="display: none;"></iframe>
+
+            <!-- <input type="submit"> -->
         </div>
         </fieldset>
         </form>
-        <div class="draggable f"></div>
-        <div class="draggable a"></div>
-        <div class="draggable b"></div>
-        <div class="draggable c"></div>
-        <div class="draggable d"></div>
-        <div class="draggable e"></div>
-    </div>
+
 
 <!-- <div class="elast">
   <div class="coordinates">

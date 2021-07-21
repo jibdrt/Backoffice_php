@@ -11,7 +11,7 @@
 <body>
 <a class="btnback" href="http://localhost/backoffice-portfolio/front/index.php"><button>&#8592</button></a>
     <div id="navbar" class="topnav">
-            <a id="home" href="home" class="colornav">Home</a>
+            <a id="home" href="http://localhost/backoffice-portfolio/front/index.php" class="colornav">Home</a>
             
             <a id="project" class='colornav' href="http://localhost/backoffice-portfolio/front/projects.php">Projects</a>
             

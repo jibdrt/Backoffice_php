@@ -59,3 +59,10 @@ document.onmousedown = filter;
 //NOTICE THIS 
 document.ontouchstart = filter;
 //NOTICE THIS 
+
+
+
+
+function validate() {
+  alert("Successfully sent - Envoyé avec succes !");
+}

@@ -9,12 +9,12 @@
 <!--     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animejs@3.1.0/lib/anime.min.js"> -->
     <link rel="stylesheet" href="animhome.css">
     <script src="main.js"></script>
-    <title>Test-front</title>
+    <title>-Portfolio-</title>
 </head>
 <body>
 
     <div id="navbar" class="topnav">
-            <a id="home" href="home" class="colornav">Home</a>
+            <a id="home" href="http://localhost/backoffice-portfolio/front/index.php" class="colornav">Home</a>
             
             <a id="project" class='colornav' href="http://localhost/backoffice-portfolio/front/projects.php">Projects</a>
             
