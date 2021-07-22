@@ -4,30 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="testfront.css">
+    <link rel="stylesheet" href="front/testfront.css">
     <script language="javascript" src="anime/lib/anime.min.js"></script>
 <!--     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animejs@3.1.0/lib/anime.min.js"> -->
-    <link rel="stylesheet" href="animhome.css">
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="front/animhome.css">
     <title>-Portfolio-</title>
 </head>
 <body>
 
     <div id="navbar" class="topnav">
-            <a id="home" href="http://localhost/backoffice-portfolio/front/index.php" class="colornav">Home</a>
+            <a id="home" href="/front/index.php" class="colornav">Home</a>
             
-            <a id="project" class='colornav' href="http://localhost/backoffice-portfolio/front/projects.php">Projects</a>
+            <a id="project" class='colornav' href="/front/projects.php">Projects</a>
             
             <div id="myBtn">
-            <a id="contact" class='colornav' href="http://localhost/backoffice-portfolio/front/contactform.php">Contact</a>
+            <a id="contact" class='colornav' href="/front/contactform.php">Contact</a>
             </div>
 
-            <a id="about" class='colornav' href="http://localhost/backoffice-portfolio/front/about.php">About</a>
+            <a id="about" class='colornav' href="/front/about.php">About</a>
     </div>
     <div class="container">
                 
     </div>
-    <?php include "animhome.php";?>
+    <?php include "front/animhome.php";?>
 
     
 
@@ -40,7 +39,7 @@
     </a> -->
 
 
-<script src="main.js"></script>
+<script src="front/main.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </body>
 </html>
