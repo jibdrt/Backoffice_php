@@ -9,16 +9,16 @@
     <title>About/A propos</title>
 </head>
 <body>
-<a class="btnback" href="http://localhost/backoffice-portfolio/index.php"><button>&#8592</button></a>
+<a class="btnback" href="../index.php"><button>&#8592</button></a>
     <div id="navbar" class="topnav">
-            <a id="home" href="http://localhost/backoffice-portfolio/index.php" class="colornav">Home</a>
+            <a id="home" href="../index.php" class="colornav">Home</a>
             
-            <a id="project" class='colornav' href="http://localhost/backoffice-portfolio/front/projects.php">Projects</a>
+            <a id="project" class='colornav' href="projects.php">Projects</a>
             
             <div id="myBtn">
-            <a id="contact" class='colornav' href="http://localhost/backoffice-portfolio/front/contactform.php">Contact</a>
+            <a id="contact" class='colornav' href="contactform.php">Contact</a>
             </div>
-            <a id="about" class='colornav' href="http://localhost/backoffice-portfolio/front/about.php">About</a>
+            <a id="about" class='colornav' href="about.php">About</a>
     </div>
     <div class="container">
                 

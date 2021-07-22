@@ -13,15 +13,15 @@
 <body>
 
     <div id="navbar" class="topnav">
-            <a id="home" href="/front/index.php" class="colornav">Home</a>
+            <a id="home" href="front/index.php" class="colornav">Home</a>
             
-            <a id="project" class='colornav' href="/front/projects.php">Projects</a>
+            <a id="project" class='colornav' href="front/projects.php">Projects</a>
             
             <div id="myBtn">
-            <a id="contact" class='colornav' href="/front/contactform.php">Contact</a>
+            <a id="contact" class='colornav' href="front/contactform.php">Contact</a>
             </div>
 
-            <a id="about" class='colornav' href="/front/about.php">About</a>
+            <a id="about" class='colornav' href="front/about.php">About</a>
     </div>
     <div class="container">
                 
