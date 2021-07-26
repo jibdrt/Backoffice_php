@@ -186,10 +186,10 @@
     <div class="animate-me bloc">
     &#9723&#9723&#9723&#9723&#9723&#9723&#9723&#9723&#9723&#9723&#9723&#9723&#9723&#9723&#9723&#9723&#9723&#9723&#9723    </div>
     <div class="animate-me name">
-    JEAN-BAPTISTE.DRUET
+    JEAN-BAPTISTE<br class="br-mobile">.DRUET
     </div>
     <div class="animate-me name">
-    WEBDESIGN.DEVWEB
+    WEBDESIGN<br class="br-mobile">.DEVWEB
     </div>
     <div class="animate-me bloc">
     &#9723&#9723&#9723&#9723&#9723&#9723&#9723&#9723&#9723&#9723&#9723&#9723&#9723&#9723&#9723&#9723&#9723&#9723&#9723    </div>

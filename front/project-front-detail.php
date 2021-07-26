@@ -30,7 +30,7 @@ if (isset($_GET['id']) && !empty($_GET['id'])) {
 </head>
 <body>
 
-<a class="btnback" href="http://localhost/backoffice-portfolio/front/projects.php"><button>&#8592</button></a>
+<a class="btnback" href="front/projects.php"><button>&#8592</button></a>
 
                 <div class="card">
                                 

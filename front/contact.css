@@ -10,10 +10,7 @@ body {
 .draggable {
   width: 100px;
   height: 100px;
-  background: white;
-  border-radius: 100%;
-  border: black 1px solid;
-  box-shadow: rgb(0, 0, 0) 1px 1px 1px;
+  background: red;
 }
 
 html {
