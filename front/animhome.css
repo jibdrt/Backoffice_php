@@ -33,6 +33,7 @@
     .anim{
       background: #222222;
       height: 8px;
+      width: 20vw;
 
     }
 
@@ -121,130 +122,130 @@
   @keyframes move {
       0%
       {
-        max-width: 200px;
+        max-width: 20vw;
       }
       2%
       {
-        max-width: 190px;
+        max-width: 20vw;
       }
       6%{
-        max-width: 180px;
+        max-width: 20vw;
       }
       12%
       {
-        max-width: 170px;
+        max-width: 20vw;
       }
       16%
       {
-        max-width: 160px;
+        max-width: 20vw;
       }
       20%
       {
-        max-width: 150px;
+        max-width: 20vw;
       }
       22%{
-        max-width: 140px;
+        max-width: 20vw;
       }
       23%{
-        max-width: 130px;
+        max-width: 20vw;
       }
       25%
       { 
-        max-width: 120px;
+        max-width: 20vw;
       }
       28%{
-        max-width: 110px;
+        max-width: 20vw;
       }
       32%{
-        max-width: 100px;
+        max-width: 20vw;
         margin-left: 10vw;
       }
       34%{
-        max-width: 110px;
+        max-width: 20vw;
       }
       36%{
-        max-width: 120px;
+        max-width: 20vw;
       }
       39%{
-        max-width: 130px;
+        max-width: 20vw;
 
       }41%{
-        max-width: 140px;
+        max-width: 20vw;
       }43%{
-        max-width: 150px;
+        max-width: 20vw;
       }44%{
-        max-width: 160px;
+        max-width: 20vw;
       }45%{
-        max-width: 170px;
+        max-width: 20vw;
       }46%{
-        max-width: 180px;
+        max-width: 20vw;
       }48%{
-        max-width: 190px;
+        max-width: 20vw;
       }50%{
-        max-width: 200px;
+        max-width: 20vw;
         transform: rotate(90deg);
         box-shadow: white 2px 2px 2px 2px;
       }
       55%
       {
-        max-width: 190px;
+        max-width: 20vw;
       }
       60%
       {
-        max-width: 180px;
+        max-width: 20vw;
       }
       65%{
-        max-width: 170px;
+        max-width: 20vw;
       }
       70%
       {
-        max-width: 160px;
+        max-width: 20vw;
       }
       72%
       {
-        max-width: 150px;
+        max-width: 20vw;
 
       }
       74%
       {
-        max-width: 140px;
+        max-width: 20vw;
       }
       76%{
-        max-width: 130px;
+        max-width: 20vw;
       }
       77%{
-        max-width: 120px;
+        max-width: 20vw;
       }
       79%
       { 
-        max-width: 110px;
+        max-width: 20vw;
       }
       80%{
-        max-width: 100px;
+        max-width: 20vw;
       }
       82%{
-        max-width: 90px;
+        max-width: 20vw;
       }
       84%{
-        max-width: 80px;
+        max-width: 20vw;
       }
       86%{
-        max-width: 70px;
+        max-width: 20vw;
       }
       88%{
-        max-width: 90px;
+        max-width: 20vw;
       }90%{
-        max-width: 110px;
+        max-width: 20vw;
       }92%{
-        max-width: 130px;
+        max-width: 20vw;
       }93%{
-        max-width: 150px;
+        max-width: 20vw;
       }95%{
-        max-width: 170px;
+        max-width: 20vw;
       }98%{
-        max-width: 180px;
+        max-width: 20vw;
       }100%{
-        max-width: 200px;
+        max-width: 20vw;
         transform-style:preserve-3d;
         animation-fill-mode: forwards;
         animation-play-state: paused;
