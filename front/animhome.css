@@ -55,74 +55,75 @@
     
     
     .a{
-      animation: move 12s  ease-in;
+      animation: move 6s  ease-in-out;
     }
     .b{
-      animation: move 10.5s  ease-in;
+      animation: move 6.5s  ease-in-out;
     }
     .c{
-      animation: move 11s  ease-in;
+      animation: move 7s  ease-in-out;
     }
     .d{
-      animation: move 11.5s  ease-in;
+      animation: move 7.5s  ease-in-out;
     }
     .e{
-      animation: move 12s  ease-in;
+      animation: move 8s  ease-in-out;
       
     }
     .f{
-      animation: move 12.5s  ease-in;
+      animation: move 8.5s  ease-in-out;
       
     }
     .g{
-      animation: move 12s  ease-in;
+      animation: move 9s  ease-in-out;
       
     }
     .h{
-      animation: move 13.5s  ease-in;
+      animation: move 10.5s  ease-in-out;
       
     }
     .i{
-      animation: move 14s  ease-in;
+      animation: move 11s  ease-in-out;
     }
     .j{
-      animation: move 14.5s  ease-in;
+      animation: move 11.5s  ease-in-out;
     }
     .k{
-      animation: move 15s  ease-in;
+      animation: move 12s  ease-in-out;
     }
     .l{
-      animation: move 15.5s  ease-in;
+      animation: move 12.5s  ease-in-out;
     }
     .m{
-      animation: move 16s  ease-in;
+      animation: move 13s  ease-in-out;
     }
     .n{
-      animation: move 16.5s  ease-in;
+      animation: move 13.5s  ease-in-out;
     }
     .o{
-      animation: move 17s  ease-in;
+      animation: move 14s  ease-in-out;
     }
     .p{
-      animation: move 17.5s  ease-in;
+      animation: move 14.5s  ease-in-out;
     }
     .q{
-      animation: move 18s  ease-in;
+      animation: move 15s  ease-in-out;
     }
     .r{
-      animation: move 18.5s  ease-in;
+      animation: move 15.5s  ease-in-out;
     }
     .s{
-      animation: move 19s  ease-in;
+      animation: move 16s  ease-in-out;
     }
     .t{
-      animation: move 19.5s  ease-in;
+      animation: move 16.5s  ease-in-out;
     }
     
   @keyframes move {
       0%
       {
-        max-width: 20vw;
+        max-width: 1vw;
+        height: 1px;
       }
       2%
       {
@@ -137,7 +138,10 @@
       }
       16%
       {
-        max-width: 20vw;
+        max-width: 5px;
+        height: 5px;
+        border-radius: 100%;
+        box-shadow: white 1px 1px 1px;
       }
       20%
       {
@@ -152,13 +156,14 @@
       25%
       { 
         max-width: 20vw;
+        overflow-y: hidden;
       }
       28%{
         max-width: 20vw;
       }
       32%{
         max-width: 20vw;
-        margin-left: 10vw;
+        margin-left: 100vw;
       }
       34%{
         max-width: 20vw;
@@ -183,7 +188,7 @@
         max-width: 20vw;
       }50%{
         max-width: 20vw;
-        transform: rotate(90deg);
+        transform: rotate(18deg);
         box-shadow: white 2px 2px 2px 2px;
       }
       55%
@@ -233,7 +238,8 @@
         max-width: 20vw;
       }
       88%{
-        max-width: 20vw;
+        max-width: 1vw;
+        height: 1px;
       }90%{
         max-width: 20vw;
       }92%{
@@ -244,6 +250,7 @@
         max-width: 20vw;
       }98%{
         max-width: 20vw;
+      
       }100%{
         max-width: 20vw;
         transform-style:preserve-3d;
