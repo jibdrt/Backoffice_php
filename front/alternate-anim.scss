@@ -294,7 +294,6 @@ DEMO
 */
 
 
-
 .page{
   max-width: 380px;
   padding: 1rem;
@@ -327,6 +326,11 @@ DEMO
 /*   ---------------------------------------- */
 
 
+@font-face {
+  font-family: 'rubik';
+  src: url('Rubik-Bold.ttf');
+}
+
 
 
 a {
@@ -339,10 +343,10 @@ text-decoration: none;
 
 .nav {
 &__link {
-  font-size: 5rem;
+  font-size: 10rem;
   color: #222222;
   display: grid;
-  font-style: italic;
+  font-style:normal;
 
   &--text {
     grid-area: 1/1;
@@ -362,13 +366,13 @@ text-decoration: none;
   }
 
   &--text:nth-child(1) {
-    font-family: "";
-    font-weight: 120000;
+    font-family: "rubik";
+    font-weight: 120;
     font-size: 120px;
   }
   &--text:nth-child(2) {
-    font-family: "";
-    font-weight: 120000;
+    font-family: "rubik";
+    font-weight: 120;
     font-size: 120px;
     opacity: 0;
     .char {
@@ -379,6 +383,27 @@ text-decoration: none;
   }
 
   &:hover {
+    .nav__link--text {
+      transform: translateX(var(--link-translate-x));
+      &:nth-child(1) {
+        opacity: 0;
+        .char {
+          transform: rotate3d(1, 0.3, 0, -90deg);
+          // OR
+          // transform: rotateX(-90deg) rotateY(-27deg);
+        }
+      }
+      &:nth-child(2) {
+        opacity: 1;
+        .char {
+          transform: rotate3d(0, 0, 0, 90deg);
+          // OR
+          // transform: rotate(0);
+        }
+      }
+    }
+  }
+  &:active {
     .nav__link--text {
       transform: translateX(var(--link-translate-x));
       &:nth-child(1) {
@@ -411,12 +436,10 @@ text-decoration: none;
 
 .support {
 position: absolute;
-right: 10px;
-bottom: 10px;
-padding: 10px;
+
 display: flex;
 a {
-  margin: 0 10px;
+  margin: 0 5px;
   color: #fff;
   font-size: 1.8rem;
   backface-visibility: hidden;
@@ -433,15 +456,16 @@ a {
   &__link {
     &--text:nth-child(1) {
 
-
+      font-family: "rubik";
         font-size: 32px;
       }
       &--text:nth-child(2) {
 
-
+        font-family: "rubik";
         font-size: 32px;
         opacity: 0;
       }
     }
   }
 }
+

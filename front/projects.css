@@ -26,8 +26,8 @@ html{
 
 .block {
     position: relative;
-    width: 580px;
-    height: 460px;
+    width: 20vw;
+    height: 50vh;
     margin: 10px 300px 20px 80px;
     cursor: pointer;
 }
@@ -44,15 +44,16 @@ html{
 
 #logo{
     width: 120px;
-    margin-top: 15vh;
-    margin-left: 14vw;
+    margin-top: 10vh;
+    margin-left: 7vw;
+
 }
 
 h1 {
     position: absolute;
     font-family: "Monument Extended";
     font-weight: lighter;
-    font-size: 64px;
+    font-size: 44px;
 }
 
 
