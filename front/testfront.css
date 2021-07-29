@@ -36,7 +36,22 @@
 
 body{
   height: 700px;
+  animation: body 3s ease-out;
 }
+
+
+
+@keyframes body {
+  0%{
+    background: rgb(51, 51, 51);
+  }50%{
+    background: rgb(51, 51, 51);
+  } 100%{
+    background: white;
+  }
+}
+
+
 
 #navbar {
   overflow: hidden;
