@@ -51,6 +51,20 @@ body{
   }
 }
 
+.circle {
+	position: absolute;
+  border: solid 1px #222222;
+	width: 60px; 
+	height: 60px; 
+  border-radius: 50%;  
+}
+.circlewhite {
+	position: absolute;
+  border: solid 1px #ffffff;
+	width: 55px; 
+	height: 55px; 
+  border-radius: 50%;  
+}
 
 
 #navbar {
@@ -203,8 +217,12 @@ color:rgb(255, 255, 255);
 
 
 html{
-  cursor:crosshair;
+  cursor: crosshair;
 }
+
+
+
+
 
 .colornav:after {
   content: '';                                                 

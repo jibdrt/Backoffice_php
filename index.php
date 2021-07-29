@@ -18,8 +18,13 @@
 
     <?php include "front/animhome.php";?>
 
+    <span id="circle" class="circle"></span>
+    <span id="circlewhite" class="circlewhite"></span>
 
 
+
+
+    
 
 <div class="menu">
   <nav class="menu__nav">
@@ -55,7 +60,7 @@
 
 
 
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="front/main.js"></script>

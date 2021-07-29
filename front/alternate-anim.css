@@ -149,6 +149,7 @@ MENU STYLES
   width: var(--uiMenuCircleSize);
   height: var(--uiMenuCircleHeight);
   flex: none;
+  cursor: crosshair;
   position: relative;
 }
 
@@ -282,7 +283,7 @@ DEMO
   text-transform: uppercase;
 }
 
-/*   --------------------OOOO-------------------- */
+/*   ---------------------------------------- */
 @font-face {
   font-family: "rubik";
   src: url("Rubik-Bold.ttf");

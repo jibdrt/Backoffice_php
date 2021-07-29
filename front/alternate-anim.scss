@@ -175,7 +175,7 @@ MENU STYLES
   width: var(--uiMenuCircleSize);
   height: var(--uiMenuCircleHeight);
   flex: none;
-
+  cursor: crosshair;
   position: relative;
 }
 
@@ -323,7 +323,7 @@ DEMO
 }
 
 
-/*   --------------------OOOO-------------------- */
+/*   ---------------------------------------- */
 
 
 @font-face {

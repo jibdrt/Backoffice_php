@@ -194,24 +194,25 @@ border-radius: 50px;
 }
 
 .btnback button{
-    background-color: white;
-    color: rgb(0, 0, 0);
+    background-color: transparent;
+    color: white;
+    border: 1px white solid;
     margin-top: 2vh;
     margin-left: 1vw;
     border-radius: 15px;
     width: 150px;
-    cursor: pointer;
+    cursor: crosshair;
 }
 
 .btnback button:hover{
     background-color: #222222;
     color: rgb(255, 255, 255);
-    transition: 1s;
+    transition: 0.2s;
 }
 
 .btnback button:not(:hover){
 
-    transition: 1s;
+    transition: 0.2s;
 }
 
 a{
