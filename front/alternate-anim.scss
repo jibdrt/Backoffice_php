@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 .r-button{
   --uirButtonBackgroundColor: var(--rButtonBackgroundColor, transparent);
   --uirButtonPadding: var(--rButtonPadding, var(--rButtonPaddingTop, 0) var(--rButtonPaddingRight, 0) var(--rButtonPaddingBottom, 0) var(--rButtonPaddingLeft, 0));
@@ -323,7 +323,7 @@ DEMO
 }
 
 
-/*   ---------------------------------------- */
+/*   --------------------OOOO-------------------- */
 
 
 @font-face {
@@ -365,13 +365,14 @@ text-decoration: none;
     }
   }
 
+
   &--text:nth-child(1) {
-    font-family: "rubik";
+    font-family: 'Krona One', sans-serif;
     font-weight: 120;
     font-size: 120px;
   }
   &--text:nth-child(2) {
-    font-family: "rubik";
+    font-family: 'Krona One', sans-serif;
     font-weight: 120;
     font-size: 120px;
     opacity: 0;

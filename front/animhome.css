@@ -56,70 +56,151 @@
     
     .a{
       animation: move 6s  ease-in-out;
+      transform: rotate(45deg);
+      box-shadow: 2px 2px 2px 2px white;
+       ;
     }
     .b{
       animation: move 6.5s  ease-in-out;
+      transform: rotate(45deg);
+      box-shadow: 2px 2px 2px 2px white;
+       ;
     }
     .c{
       animation: move 7s  ease-in-out;
+      transform: rotate(45deg);
+      box-shadow: 2px 2px 2px 2px white;
+       ;
     }
     .d{
       animation: move 7.5s  ease-in-out;
+      transform: rotate(45deg);
+      box-shadow: 2px 2px 2px 2px white;
+       ;
     }
     .e{
-      animation: move 8s  ease-in-out;
+      animation: move 6s  ease-in-out;
+      transform: rotate(45deg);
+      box-shadow: 2px 2px 2px 2px white;
+       ;
       
     }
     .f{
-      animation: move 8.5s  ease-in-out;
+      animation: move 6.5s  ease-in-out;
+      transform: rotate(45deg);
+      box-shadow: 2px 2px 2px 2px white;
+       ;
       
     }
     .g{
-      animation: move 9s  ease-in-out;
+      animation: move 6s  ease-in-out;
+      transform: rotate(45deg);
+      box-shadow: 2px 2px 2px 2px white;
+       ;
       
     }
     .h{
-      animation: move 10.5s  ease-in-out;
+      animation: move 6.5s  ease-in-out;
+      transform: rotate(45deg);
+      box-shadow: 2px 2px 2px 2px white;
+       ;
       
     }
     .i{
-      animation: move 11s  ease-in-out;
+      animation: move 6s  ease-in-out;
+      transform: rotate(45deg);
+      box-shadow: 2px 2px 2px 2px white;
+       ;
     }
     .j{
-      animation: move 11.5s  ease-in-out;
+      animation: move 6.5s  ease-in-out;
+      transform: rotate(45deg);
+      box-shadow: 2px 2px 2px 2px white;
+       ;
     }
     .k{
-      animation: move 12s  ease-in-out;
+      animation: move 7s  ease-in-out;
+      transform: rotate(45deg);
+      box-shadow: 2px 2px 2px 2px white;
+       ;
     }
     .l{
-      animation: move 12.5s  ease-in-out;
+      animation: move 6.5s  ease-in-out;
+      transform: rotate(45deg);
+      box-shadow: 2px 2px 2px 2px white;
+       ;
     }
     .m{
-      animation: move 13s  ease-in-out;
+      animation: move 6s  ease-in-out;
+      transform: rotate(45deg);
+      box-shadow: 2px 2px 2px 2px white;
+       ;
     }
     .n{
-      animation: move 13.5s  ease-in-out;
+      animation: move 6.5s  ease-in-out;
+      transform: rotate(45deg);
+      box-shadow: 2px 2px 2px 2px white;
+       ;
     }
     .o{
-      animation: move 14s  ease-in-out;
+      animation: move 7s  ease-in-out;
+      transform: rotate(45deg);
+      box-shadow: 2px 2px 2px 2px white;
+       ;
     }
     .p{
-      animation: move 14.5s  ease-in-out;
+      animation: move 6.5s  ease-in-out;
+      transform: rotate(45deg);
+      box-shadow: 2px 2px 2px 2px white;
+       ;
     }
     .q{
-      animation: move 15s  ease-in-out;
+      animation: move 6s  ease-in-out;
+      transform: rotate(45deg);
+      box-shadow: 2px 2px 2px 2px white;
+       ;
     }
     .r{
-      animation: move 15.5s  ease-in-out;
+      animation: move 6.5s  ease-in-out;
+      transform: rotate(45deg);
+      box-shadow: 2px 2px 2px 2px white;
+       ;
     }
     .s{
-      animation: move 16s  ease-in-out;
+      animation: move 6s  ease-in-out;
+      transform: rotate(45deg);
+      box-shadow: 2px 2px 2px 2px white;
+       ;
     }
     .t{
-      animation: move 16.5s  ease-in-out;
+      animation: move 6.5s  ease-in-out;
+      transform: rotate(45deg);
+      box-shadow: 2px 2px 2px 2px white;
+       ;
     }
-    
-  @keyframes /* move */ {
+
+@keyframes move {
+  0%{
+    width: 59vw;
+
+  }25%{
+    background-image: linear-gradient(#222222, white, #222222, white);
+    transition: 2s;
+  }50%{
+    background-image: linear-gradient(white, #222222, white, #222222);
+    transition: 1s;
+
+  }75%{
+
+
+  }100%{
+
+  }
+}
+
+
+/*     
+  @keyframes move {
       0%
       {
         max-width: 1vw;
@@ -257,77 +338,7 @@
         animation-fill-mode: forwards;
         animation-play-state: paused;
       }
-    }
-
-
-
-
-
-
-/*     @keyframes move {
-      0%
-      {
-        max-width: 200px;
-      }
-      5%
-      {
-        max-width: 190px;
-      }
-      10%{
-        max-width: 180px;
-      }
-      15%
-      {
-        max-width: 170px;
-      }
-      20%
-      {
-        max-width: 160px;
-      }
-      25%
-      {
-        max-width: 150px;
-      }
-      30%{
-        max-width: 140px;
-      }
-      35%{
-        max-width: 130px;
-      }
-      40%
-      { 
-        max-width: 120px;
-      }
-      45%{
-        max-width: 110px;
-      }
-      50%{
-        max-width: 100px;
-      }
-      55%{
-        max-width: 110px;
-      }
-      60%{
-        max-width: 120px;
-      }
-      65%{
-        max-width: 130px;
-      }70%{
-        max-width: 140px;
-      }75%{
-        max-width: 150px;
-      }80%{
-        max-width: 160px;
-      }85%{
-        max-width: 170px;
-      }90%{
-        max-width: 180px;
-      }95%{
-        max-width: 190px;
-      }100%{
-        max-width: 200px;
-      } */
-
+    } */
 
 
 
