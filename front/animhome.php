@@ -244,13 +244,16 @@
   
 
   <div class="about">
+
     <div class="whitespace"></div>
 
-  <p class="animation-element slide-left testimonial">Originally from Burgundy and now living in Dijon, I am 25 years old.</p><br>
-<p class="animation-element slide-left testimonial">After a master's degree in marketing and management, I decided to give in to curiosity by orienting myself in the field of web development.</p><br><p class="animation-element slide-left testimonial">Passionate about what I do, this decision making was kind of a revelation.</p><br>
-<p class="animation-element slide-left testimonial">Interested in creations of all kinds, I also practice drawing and music for many years.</p>
-<div class="whitespace"></div>
-  </div>
+        <p class="animation-element slide-left testimonial">Hello, I'm JB.<br>Originally from Burgundy and now living in Dijon, I am 25 years old.</p><br>
+        <p class="animation-element slide-left testimonial">After a master's degree in marketing and management, I decided to give in to curiosity by studying web development.</p><br><p class="animation-element slide-left testimonial">Passionate about what I do, this decision making was kind of a revelation.</p><br>
+        <p class="animation-element slide-left testimonial">Interested in creations of all kinds, I also practice drawing and music for many years.</p>
+          <div class="line animation-element slide-left"></div>
+  <div class="whitespace"></div>
+
+</div>
 
   <script src="https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/letterizejs/lib/letterize.min.js"></script>

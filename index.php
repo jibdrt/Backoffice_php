@@ -31,20 +31,20 @@
     <ul class="menu__list r-list">
       <li class="menu__group">
         <a href="front/projects.php" class="menu__link r-link nav__link">
-                        <span class="nav__link--text" data-splitting>PROJETS</span>
-                        <span class="nav__link--text" data-splitting>PROJECTS</span>
+                        <span class="nav__link--text" data-splitting>PROJETS -</span>
+                        <span class="nav__link--text" data-splitting>- PROJECTS</span>
         </a>
       </li>
-      <li class="menu__group">
+<!--       <li class="menu__group">
         <a href="front/about.php" class="menu__link r-link nav__link">
                         <span class="nav__link--text" data-splitting>À PROPOS DE MOI</span>
                         <span class="nav__link--text" data-splitting>ABOUT</span>
         </a>
-      </li>
+      </li> -->
       <li class="menu__group">
         <a href="front/contactform.php" class="menu__link r-link nav__link">
-                <span class="nav__link--text" data-splitting>ME CONTACTER</span>
-                <span class="nav__link--text" data-splitting>CONTACT ME</span>
+                <span class="nav__link--text" data-splitting>ME CONTACTER -</span>
+                <span class="nav__link--text" data-splitting>- CONTACT ME</span>
         </a>
       </li>
     </ul>
