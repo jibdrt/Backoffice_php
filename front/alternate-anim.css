@@ -9,7 +9,6 @@
   --uirButtonFontSize: var(--rButtonFontSize, inherit);
   --uirButtonColor: var(--rButtonColor);
   background-color: var(--uirButtonBackgroundColor);
-  padding: var(--uirButtonPadding);
   border-width: var(--uirButtonBorderWidth);
   border-style: var(--uirButtonBorderStyle);
   border-color: var(--uirButtonBorderColor);
@@ -44,7 +43,6 @@
   --uirListMarginTop: var(--rListMarginTop, 0);
   --uirListMarginBottom: var(--rListMarginBottom, 0);
   --uirListListStyle: var(--rListListStyle, none);
-  padding-left: var(--uirListPaddingLeft) !important;
   margin-top: var(--uirListMarginTop) !important;
   margin-bottom: var(--uirListMarginBottom) !important;
   list-style: var(--uirListListStyle) !important;
@@ -92,7 +90,6 @@
 .screen-reader {
   width: var(--screenReaderWidth, 1px) !important;
   height: var(--screenReaderHeight, 1px) !important;
-  padding: var(--screenReaderPadding, 0) !important;
   border: var(--screenReaderBorder, none) !important;
   position: var(--screenReaderPosition, absolute) !important;
   clip: var(--screenReaderClip, rect(1px, 1px, 1px, 1px)) !important;
@@ -258,7 +255,6 @@ DEMO
 */
 .page {
   max-width: 380px;
-  padding: 1rem;
   margin: auto;
   text-align: center;
 }
@@ -266,7 +262,6 @@ DEMO
 .page__name {
   display: block;
   font-size: 2rem;
-  font-weight: 700;
 }
 
 .page__hint {
@@ -277,9 +272,7 @@ DEMO
 
 .menu__group {
   --rLinkTextColor: var(--colorWhite);
-  padding: 0.5rem 2rem;
   font-size: 2rem;
-  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -296,6 +289,11 @@ a:focus {
   border: none;
 }
 
+@media screen and (max-width: 720px) {
+  .a span {
+    font-size: 12px !important;
+  }
+}
 .nav__link {
   font-size: 10rem;
   color: #222222;
@@ -320,12 +318,10 @@ a:focus {
 }
 .nav__link--text:nth-child(1) {
   font-family: "Krona One", sans-serif;
-  font-weight: 120;
   font-size: 120px;
 }
 .nav__link--text:nth-child(2) {
   font-family: "Krona One", sans-serif;
-  font-weight: 120;
   font-size: 120px;
   opacity: 0;
 }
@@ -387,12 +383,12 @@ a:focus {
 
 @media screen and (max-width: 720px) {
   .nav__link--text:nth-child(1) {
-    font-family: "rubik";
-    font-size: 32px;
+    font-family: "Krona One", sans-serif;
+    font-size: 2px !important;
   }
   .nav__link--text:nth-child(2) {
-    font-family: "rubik";
-    font-size: 32px;
+    font-family: "Krona One", sans-serif;
+    font-size: 2px !important;
     opacity: 0;
   }
 }/*# sourceMappingURL=alternate-anim.css.map */

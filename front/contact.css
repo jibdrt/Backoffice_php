@@ -81,34 +81,29 @@ svg {
 input, textarea {
   width: 300px;
 }
-.btnback{
+
+.btnback {
   text-decoration: none;
 }
 
-.btnback button{
-  background-color: transparent;
-  color: white;
-  border: 1px white solid;
+.btnback button {
+  background-color: white;
+  color: #222222;
   margin-top: 2vh;
   margin-left: 1vw;
   border-radius: 15px;
   width: 150px;
-  cursor: crosshair;
+  cursor: pointer;
 }
 
-.btnback button:hover{
+.btnback button:hover {
   background-color: #222222;
-  color: rgb(255, 255, 255);
-  transition: 0.2s;
+  color: white;
+  transition: 1s;
 }
 
-.btnback button:not(:hover){
-
-  transition: 0.2s;
-}
-
-a{
-  text-decoration: none;
+.btnback button:not(:hover) {
+  transition: 1s;
 }
 
 .btnform {

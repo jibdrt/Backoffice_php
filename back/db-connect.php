@@ -1,8 +1,8 @@
 <?php
 $servername='localhost';
-$dbname='backoffice';
-$username='root';
-$password='';
+$dbname='jeanbaptisted760_dbportfolio';
+$username='jeanbaptisted760';
+$password='iXHa14tt9zDfvw==';
 try {
     $db = new PDO ("mysql:host=$servername; dbname=$dbname",$username,$password);
     $db -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);

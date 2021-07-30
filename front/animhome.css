@@ -380,6 +380,12 @@ html {
   display: none;
 }
 
+@media screen and (max-width: 720px) {
+  .mobile{
+    display: none;
+  }
+}
+
 
 @media screen and (max-width: 720px) {
   #portfolio{
@@ -425,9 +431,13 @@ html {
   line-height: 1.2;
 }
 
+.sub-portfolio{
+  font-size: 40px !important;
+}
+
 
 a span {
-  font-size: 40px;
+  font-size: 24px;
   margin: 0;
   padding: 0;
   display: inline-block;

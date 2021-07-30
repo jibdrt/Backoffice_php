@@ -156,10 +156,10 @@
 
             <div id="portfolio">
                     <a id="letters">
-                            <span>P</span>
-                            <span>O</span>
-                            <span>R</span>
-                            <span>T</span>
+                            <span class="sub-portfolio">P</span>
+                            <span class="sub-portfolio">O</span>
+                            <span class="sub-portfolio">R</span>
+                            <span class="sub-portfolio">T</span>
                             <span class="br"><br></span>
                             <style>
                               @media screen and (max-width:720px) {
@@ -168,11 +168,11 @@
                                   }
                               }
                             </style>
-                            <span>F</span>
-                            <span>O</span>
-                            <span>L</span>
-                            <span>I</span>
-                            <span>O</span>
+                            <span class="sub-portfolio">F</span>
+                            <span class="sub-portfolio">O</span>
+                            <span class="sub-portfolio">L</span>
+                            <span class="sub-portfolio">I</span>
+                            <span class="sub-portfolio">O</span>
                     </a>
 
             <style>
