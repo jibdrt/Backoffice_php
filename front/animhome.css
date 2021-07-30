@@ -185,12 +185,12 @@
     width: 64vw;
 
   }25%{
-    background-image: linear-gradient(#222222, white, #222222, white);
+    background-image: linear-gradient(#222222, white, #222222, white, #222222, white, #222222, white, #222222, white, #222222, white);
   }50%{
-    background-image: linear-gradient(white, #222222, white, #222222);
+    background-image: linear-gradient(white, #222222, white, #222222, white, #222222, white, #222222, white, #222222, white, #222222, white, #222222, white, #222222);
 
   }75%{
-    
+    transition: 8s;
 
   }100%{
 
