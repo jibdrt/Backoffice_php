@@ -137,20 +137,20 @@
                     <div class="anim q"></div>
                     <div class="anim p"></div>
                     <div class="anim o"></div>
-                                       <div class="anim n"></div>
-                    <div class="anim m"></div>
-                    <div class="anim l"></div>
-                    <div class="anim k"></div>
-                    <div class="anim j"></div>
-                    <div class="anim k"></div>
-                    <div class="anim l"></div>
-                    <div class="anim m"></div>
                     <div class="anim n"></div>
-                    <div class="anim o"></div>
-                    <div class="anim p"></div>
-                    <div class="anim q"></div>
-                    <div class="anim r"></div>
-                    <div class="anim s"></div>
+                    <div class="anim m"></div>
+                    <div class="anim l"></div>
+                    <div class="anim k"></div>
+                    <div class="anim j one"></div>
+                    <div class="anim k two"></div>
+                    <div class="anim l three"></div>
+                    <div class="anim m four"></div>
+                    <div class="anim n five"></div>
+                    <div class="anim o six"></div>
+                    <div class="anim p seven"></div>
+                    <div class="anim q height"></div>
+                    <div class="anim r nine"></div>
+                    <div class="anim s ten"></div>
 </div>
         </div>
 
@@ -244,7 +244,14 @@
   
 
   <div class="about">
-
+  <div class="whitespace"></div>
+  <div class="line animation-element slide-left"></div>
+  <br><br><br>
+  <div class="line animation-element slide-left"></div>
+  <br><br><br>
+  <div class="line animation-element slide-left"></div>
+  <br><br><br>
+  <div class="line animation-element slide-left"></div>
     <div class="whitespace"></div>
 
         <p class="animation-element slide-left testimonial">Hello, I'm JB.<br>Originally from Burgundy and now living in Dijon, I am 25 years old.</p><br>
@@ -434,16 +441,16 @@ const test = new Letterize({
                     <div class="anim m"></div>
                     <div class="anim l"></div>
                     <div class="anim k"></div>
-                    <div class="anim j"></div>
-                    <div class="anim k"></div>
-                    <div class="anim l"></div>
-                    <div class="anim m"></div>
-                    <div class="anim n"></div>
-                    <div class="anim o"></div>
-                    <div class="anim p"></div>
-                    <div class="anim q"></div>
-                    <div class="anim r"></div>
-                    <div class="anim s"></div>
+                    <div class="anim j one"></div>
+                    <div class="anim k two"></div>
+                    <div class="anim l three"></div>
+                    <div class="anim m four"></div>
+                    <div class="anim n five"></div>
+                    <div class="anim o six"></div>
+                    <div class="anim p seven"></div>
+                    <div class="anim q height"></div>
+                    <div class="anim r nine"></div>
+                    <div class="anim s ten"></div>
                     
 
         </div>

@@ -35,7 +35,6 @@
       height: 8px;
       width: 30vw;
       margin-left: -5vw;
-
     }
 
     #container_title{
@@ -52,130 +51,131 @@
 
     
     
+    
 
     
     
     .a{
       animation: move 6s  ease-in-out;
-      transform: rotate(45deg);
+      transform: rotate((-45deg));
       box-shadow: 2px 2px 2px 2px white;
        
     }
     .b{
       animation: move 6.5s  ease-in-out;
-      transform: rotate(45deg);
+      transform: rotate((-45deg));
       box-shadow: 2px 2px 2px 2px white;
        
     }
     .c{
       animation: move 7s  ease-in-out;
-      transform: rotate(45deg);
+      transform: rotate((-45deg));
       box-shadow: 2px 2px 2px 2px white;
        
     }
     .d{
       animation: move 7.5s  ease-in-out;
-      transform: rotate(45deg);
+      transform: rotate((-45deg));
       box-shadow: 2px 2px 2px 2px white;
        
     }
     .e{
       animation: move 6s  ease-in-out;
-      transform: rotate(45deg);
+      transform: rotate((-45deg));
       box-shadow: 2px 2px 2px 2px white;
        
       
     }
     .f{
       animation: move 6.5s  ease-in-out;
-      transform: rotate(45deg);
+      transform: rotate((-45deg));
       box-shadow: 2px 2px 2px 2px white;
        
       
     }
     .g{
       animation: move 6s  ease-in-out;
-      transform: rotate(45deg);
+      transform: rotate((-45deg));
       box-shadow: 2px 2px 2px 2px white;
        
       
     }
     .h{
       animation: move 6.5s  ease-in-out;
-      transform: rotate(45deg);
+      transform: rotate((-(-45deg)));
       box-shadow: 2px 2px 2px 2px white;
        
       
     }
     .i{
       animation: move 6s  ease-in-out;
-      transform: rotate(45deg);
+      transform: rotate((-45deg));
       box-shadow: 2px 2px 2px 2px white;
        
     }
     .j{
       animation: move 6.5s  ease-in-out;
-      transform: rotate(45deg);
+      transform: rotate((-45deg));
       box-shadow: 2px 2px 2px 2px white;
        
     }
     .k{
       animation: move 7s  ease-in-out;
-      transform: rotate(45deg);
+      transform: rotate((-45deg));
       box-shadow: 2px 2px 2px 2px white;
        
     }
     .l{
       animation: move 6.5s  ease-in-out;
-      transform: rotate(45deg);
+      transform: rotate((-45deg));
       box-shadow: 2px 2px 2px 2px white;
        
     }
     .m{
       animation: move 6s  ease-in-out;
-      transform: rotate(45deg);
+      transform: rotate((-45deg));
       box-shadow: 2px 2px 2px 2px white;
        
     }
     .n{
       animation: move 6.5s  ease-in-out;
-      transform: rotate(45deg);
+      transform: rotate((-45deg));
       box-shadow: 2px 2px 2px 2px white;
        
     }
     .o{
       animation: move 7s  ease-in-out;
-      transform: rotate(45deg);
+      transform: rotate((-45deg));
       box-shadow: 2px 2px 2px 2px white;
        
     }
     .p{
       animation: move 6.5s  ease-in-out;
-      transform: rotate(45deg);
+      transform: rotate((-45deg));
       box-shadow: 2px 2px 2px 2px white;
        
     }
     .q{
       animation: move 6s  ease-in-out;
-      transform: rotate(45deg);
+      transform: rotate((-45deg));
       box-shadow: 2px 2px 2px 2px white;
        
     }
     .r{
       animation: move 6.5s  ease-in-out;
-      transform: rotate(45deg);
+      transform: rotate((-45deg));
       box-shadow: 2px 2px 2px 2px white;
        
     }
     .s{
       animation: move 6s  ease-in-out;
-      transform: rotate(45deg);
+      transform: rotate((-45deg));
       box-shadow: 2px 2px 2px 2px white;
        
     }
     .t{
       animation: move 6.5s  ease-in-out;
-      transform: rotate(45deg);
+      transform: rotate((-45deg));
       box-shadow: 2px 2px 2px 2px white;
        
     }
@@ -185,10 +185,9 @@
     width: 64vw;
 
   }25%{
-    background-image: linear-gradient(#222222, white, #222222, white, #222222, white, #222222, white, #222222, white, #222222, white);
+background-color: #222222;
   }50%{
-    background-image: linear-gradient(white, #222222, white, #222222, white, #222222, white, #222222, white, #222222, white, #222222, white, #222222, white, #222222);
-
+background-color: #222222;
   }75%{
     transition: 8s;
 
@@ -196,6 +195,51 @@
 
   }
 }
+
+
+
+.one{
+  width: 20vw;
+  border-radius: 50px 0px 50px 0px;
+}
+.two{
+  width: 18vw;
+  border-radius: 50px 0px 50px 0px;
+}
+.three{
+  width: 16vw;
+  border-radius: 50px 0px 50px 0px;
+}
+.four{
+  width: 14vw;
+  border-radius: 50px 0px 50px 0px;
+}
+.five{
+  width: 12vw;
+  border-radius: 50px 0px 50px 0px;
+}
+.six{
+  width: 10vw;
+  border-radius: 50px 0px 50px 0px;
+}
+.seven{
+  width: 8vw;
+  border-radius: 50px 0px 50px 0px;
+}
+.height{
+  width: 6vw;
+  border-radius: 50px 0px 50px 0px;
+}
+.nine{
+  width: 5vw;
+  border-radius: 50px 0px 50px 0px;
+}
+.ten{
+  width: 4vw;
+  border-radius: 50px 0px 50px 0px;
+}
+
+
 
 
 
