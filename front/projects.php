@@ -13,7 +13,7 @@
     <head>
         <meta charset="utf-8" />
         <meta http-equiv="x-ua-compatible" content="ie=edge" />
-        <title>Horizontal Scroll</title>
+        <title>Mes projets</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="projects.css" />
     </head>
@@ -34,15 +34,16 @@
 </style> 
     <body>
         <a class="btnback" href="../index.php"><button>&#8592</button></a>
+        <div id="showArea"></div>
         <div class="container">
         <?php
                 foreach ($result as $project) {
         ?>
 
-     <a href="project-front-detail.php?id=<?=$project['project_id']?>">
+
             <div id="myBtn" class="block block-1" >
 
-            <div class="table">
+            <div id="table" class="table">
                 <div>
                 <h1><?= $project['project_title'] ?></h1> <br><br>
                 <img id="logo" src="../assets/pictures/<?= $project['project_picture'] ?>" alt=""><br>
@@ -50,7 +51,7 @@
 
 
             </div>
-     </a>
+
 
 
 
@@ -62,22 +63,6 @@
             }
         ?>
 
-
-<!--             <div id="myBtn" class="block block-1">
-                <h1>.</h1>
-            </div>
-            <div class="block block-2">
-                <h1>.</h1>
-            </div>
-            <div class="block block-3">
-                <h1>.</h1>
-            </div>
-            <div class="block block-4">
-                <h1>A propos.</h1>
-            </div>
-            <div class="block block-5">
-                <h1>Contact.</h1>
-            </div> -->
         </div>
         <script src="mainscroll.js"></script>
         
@@ -90,6 +75,17 @@
                 isAnimated: true,
                 springEffect: 0.8,
             });
+        </script>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <script>
+                $(document).ready(function(){
+                $(".block").click(function(){
+                    $("#showArea").load("project-front-detail.php?id=<?=$project['project_id']?>").slideToggle(1500);
+                });
+                });
         </script>
 
     
