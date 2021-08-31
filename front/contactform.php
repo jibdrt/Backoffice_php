@@ -9,6 +9,8 @@
 </head>
 <body>
 
+<section id="my-background">
+
 <a class="btnback" href="../index.php"><button>&#8592</button></a>
 
 
@@ -41,24 +43,22 @@
         </fieldset>
         </form>
 
+</section>
 
-<!-- <div class="elast">
-  <div class="coordinates">
-    <div>X:<span class="posX">95</span></div>
-    <div>Y:<span class="posY">80</span></div>
-  </div>
-
-  <svg id="decoration" width="190" height="160" viewBox="0 0 190 160" xmlns="http://www.w3.org/2000/svg">
-    <path d="M 10 80 Q 95 80 180 80" stroke="white" fill="transparent" id="curve" />
-
-    <circle cx="10" cy="80" r="2" fill="white" id="start-point" />
-    <circle cx="180" cy="80" r="2" fill="white" id="end-point" />
-    <circle cx="95" cy="80" r="5" fill="white"id="control-point" />
-  </svg>
-</div> -->
+<!-- --------------------------------------------------------------------------------------------------- -->
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js"></script>
-<script src="contact.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.21/dist/vanta.waves.min.js"></script>
+                <script>
+                  VANTA.WAVES({el :'#my-background',
+                    color: 0x222222,
+                    shininess: 150.00,
+                  })
+        </script>
+
+<!-- --------------------------------------------------------------------------------------------------- -->
+<script src="main.js"></script>
+
 </body>
 </html>

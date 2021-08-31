@@ -7,64 +7,27 @@ body {
   background: #222222;
 }
 
-.draggable {
-  width: 100px;
-  height: 100px;
-  background: red;
-}
+
 
 html {
   -webkit-animation: contactslider 2s ease;
           animation: contactslider 2s ease;
 }
 
-@-webkit-keyframes contactslider {
-  0% {
-    margin-left: -5000px;
-  }
-  100% {
-    margin-left: 0px;
-  }
+
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
 
-@keyframes contactslider {
-  0% {
-    margin-left: -5000px;
-  }
-  100% {
-    margin-left: 0px;
-  }
-}
-svg {
-  width: 90vw;
-  height: auto;
-  background-color: transparent;
+@-webkit-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
 
-#control-point {
-  cursor: -webkit-grab;
-  cursor: grab;
-}
 
-#control-point:active {
-  cursor: -webkit-grabbing;
-  cursor: grabbing;
-}
 
-.coordinates {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  display: none;
-}
-
-@media screen and (max-width: 720px) {
-  .elast {
-    margin-top: 170px;
-    margin-left: -90px;
-  }
-}
 .cf {
   color: white;
   display: flex;
@@ -73,10 +36,7 @@ svg {
   font-family: "rubik";
 }
 
-#decoration {
-  margin-top: -300px;
-  margin-left: 100px;
-}
+
 
 input, textarea {
   width: 300px;
@@ -130,3 +90,24 @@ input, textarea {
 html {
   cursor: crosshair;
 }/*# sourceMappingURL=contact.css.map */
+
+#my-background{
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  -webkit-animation: contactslider 2s ease;
+  animation: contactslider 2s ease;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+::-webkit-scrollbar-track {
+  display: none;
+}
+
+::-webkit-scrollbar-thumb {
+  display: none;
+}

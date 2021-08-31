@@ -5,6 +5,8 @@
     src: url('Rubik-Bold.ttf');
 }
 
+*{font-family: 'rubik';}
+
 .btnback{
     text-decoration: none;
 }
