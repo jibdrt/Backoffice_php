@@ -53,7 +53,7 @@
                 <script>
                   VANTA.WAVES({el :'#my-background',
                     color: 0x222222,
-                    shininess: 150.00,
+                    shininess: 35.00,
                   })
         </script>
 
